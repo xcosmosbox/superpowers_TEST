@@ -1,0 +1,60 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: skills/using-superpowers/references/pi-tools.md
+doc_hash: sha256:c4dcb48369dfe1edc457ce051b897e73ad2ff62bd951f0c88697f6274d33d445
+generated_at: "2026-07-28T15:16:35Z"
+nodes:
+  - uuid: 6af7c6be-2e73-5830-afdf-46dcd95e4404
+    tag: entity
+    name: 子代理调度工具
+    domain: AI代理技能操作
+    subdomain: 子代理调度与管理
+    domain_slug: ai代理技能操作
+    subdomain_slug: 子代理调度与管理
+    shared: true
+    members:
+      - using-superpowers-entity-invoke-subagent-tool
+      - using-superpowers-entity-subagent-tool-pi-subagents
+    summary_hash: sha256:b33a66679444d5d4da15785e6ec218eafebda7b4700db9b163b75d3619f6b9db
+    description_hash: sha256:a3ee44bb3deef5697251fe46f296e5f6023665e02783ba76929713f4bbb78149
+    provenance: llm_inferred
+  - uuid: 40951761-5450-5a4f-9c52-6086078c3b16
+    tag: concept
+    name: 子代理回退规则
+    domain: AI代理技能操作
+    subdomain: 子代理调度与管理
+    domain_slug: ai代理技能操作
+    subdomain_slug: 子代理调度与管理
+    shared: false
+    members:
+      - using-superpowers-concept-subagent-fallback-rule
+    summary_hash: sha256:bbb018e93ab76f47f993890affac241dde3813075b154e3ce688d14ebb389adc
+    description_hash: sha256:83400715b274bd17020d6749df7852a932a0578bfb00e3a8dc60e84dfcd6b467
+    provenance: llm_inferred
+  - uuid: 5053fce6-6146-5ce3-8d22-1617c933d23c
+    tag: concept
+    name: 工具映射规则
+    domain: AI代理技能操作
+    subdomain: 工具映射与指令解析
+    domain_slug: ai代理技能操作
+    subdomain_slug: 工具映射与指令解析
+    shared: true
+    members:
+      - using-superpowers-concept-gemini-cli-tool-mapping
+      - using-superpowers-concept-pi-tool-mapping-rule
+    summary_hash: sha256:e0d5abca4b793058221dcbb18bac782842287235b42f1c881aca6dfbf9f98e1b
+    description_hash: sha256:e700c49eb5204136c819d61ad7eee6ed9e692a6ff4949aaba2cb202a88982510
+    provenance: llm_inferred
+  - uuid: ffd7a4f5-9c6d-5b1b-bf2b-3f842ef77cbf
+    tag: concept
+    name: 任务跟踪规则
+    domain: AI代理技能操作
+    subdomain: 任务跟踪与流程控制
+    domain_slug: ai代理技能操作
+    subdomain_slug: 任务跟踪与流程控制
+    shared: false
+    members:
+      - using-superpowers-concept-task-tracking-rule
+    summary_hash: sha256:829ac44018110a8b66fb7a5dff842c42dd88a58d2893ad91d8334c9e8653cec1
+    description_hash: sha256:45ba2abf1ab50a97c2897837e50364af95f5298f45b6099338d7617c01afe28e
+    provenance: llm_inferred

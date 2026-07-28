@@ -1,0 +1,20 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: _shared/ai代理技能操作/5053fce6-6146-5ce3-8d22-1617c933d23c.md
+doc_hash: sha256:d2fef5d0f000118c4e41f908cba9005f6aa94682f0e28f88943ff321f69c1541
+generated_at: "2026-07-28T15:16:35Z"
+nodes:
+  - uuid: 5053fce6-6146-5ce3-8d22-1617c933d23c
+    tag: concept
+    name: 工具映射规则
+    domain: AI代理技能操作
+    subdomain: 工具映射与指令解析
+    domain_slug: ai代理技能操作
+    subdomain_slug: 工具映射与指令解析
+    shared: true
+    members:
+      - using-superpowers-concept-gemini-cli-tool-mapping
+      - using-superpowers-concept-pi-tool-mapping-rule
+    summary_hash: sha256:e0d5abca4b793058221dcbb18bac782842287235b42f1c881aca6dfbf9f98e1b
+    description_hash: sha256:e700c49eb5204136c819d61ad7eee6ed9e692a6ff4949aaba2cb202a88982510
+    provenance: llm_inferred
