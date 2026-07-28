@@ -1,0 +1,88 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: skills/using-superpowers/references/pi-tools.md
+doc_hash: sha256:ffe171fc4774ddd608cbafd7672d1bad44fc636e53f99c5a1849405745dbec13
+generated_at: "2026-07-28T17:39:35Z"
+nodes:
+  - uuid: 6d047b95-bb2b-5c89-8fac-6e21ed0aeae2
+    tag: entity
+    name: 子代理支持包
+    domain: 子代理管理
+    subdomain: 代理调度与生命周期
+    domain_slug: 子代理管理
+    subdomain_slug: 代理调度与生命周期
+    shared: false
+    members:
+      - using-superpowers-entity-pi-subagents-包
+    summary_hash: sha256:071abd99dd74300115f69a7c0b12faae8cd8e2b724b3eb42ec1ad2900310bd03
+    description_hash: sha256:8302ecedd1d3e59b520d12f93ede1ae97f8300897bde0ee2b46a46a0a2724690
+    provenance: llm_inferred
+  - uuid: dbbf80e6-85e1-5cce-b109-8a64e59f569c
+    tag: entity
+    name: 子代理分派工具
+    domain: 子代理管理
+    subdomain: 代理调度与生命周期
+    domain_slug: 子代理管理
+    subdomain_slug: 代理调度与生命周期
+    shared: true
+    members:
+      - using-superpowers-entity-invoke-agent
+      - using-superpowers-entity-invoke-subagent
+      - using-superpowers-entity-spawn-agent-工具
+      - using-superpowers-entity-subagent-工具
+    summary_hash: sha256:561045db72afba62d0514dace579a873fdb5994520bc028472a3e666ac77be64
+    description_hash: sha256:4255a00fc7abef8ecebc9b69d2c4908f35d4cd939823e99eaabdcab833b51791
+    provenance: llm_inferred
+  - uuid: 07a196ef-a6fa-5c3a-9f7d-87bd8acb5cdd
+    tag: concept
+    name: 子代理可用性处理策略
+    domain: 子代理管理
+    subdomain: 代理调度与生命周期
+    domain_slug: 子代理管理
+    subdomain_slug: 代理调度与生命周期
+    shared: false
+    members:
+      - using-superpowers-concept-子代理工具的可用性处理策略
+    summary_hash: sha256:b24a0c0d891d934d8a3a31a36501707e4d50382f57bdf54f424dc685d54efd62
+    description_hash: sha256:b24173dcacd00998eeaba33218fde1aad2d44902d27d401423e77bfdf50d6b87
+    provenance: llm_inferred
+  - uuid: 00bd1faf-9ce8-5480-90d8-c4c9e5834e9a
+    tag: entity
+    name: TODO.md文件
+    domain: 任务管理
+    subdomain: 任务跟踪
+    domain_slug: 任务管理
+    subdomain_slug: 任务跟踪
+    shared: false
+    members:
+      - using-superpowers-entity-todo-md-文件
+    summary_hash: sha256:b6644508b3749d93fe7b25659cce0b24881286f322da6445bc1fc7c050d54b20
+    description_hash: sha256:122445db880c12136aa10eee453a31dbe37c10be32532687ed40506116a21fa8
+    provenance: llm_inferred
+  - uuid: 155c9b89-7374-53b1-bd69-ef81738a1d16
+    tag: concept
+    name: 任务跟踪替代方案
+    domain: 任务管理
+    subdomain: 任务跟踪
+    domain_slug: 任务管理
+    subdomain_slug: 任务跟踪
+    shared: false
+    members:
+      - using-superpowers-concept-任务跟踪工具的替代方案
+    summary_hash: sha256:367d4ad0dd4acec6f5822de9cd5b60b15b6c40549e58d593975e6e261ceddacb
+    description_hash: sha256:cfcb25d053493749fccc15b80767719719d982ed7915b9a3886af17ab22ea2b1
+    provenance: llm_inferred
+  - uuid: 9ba0cbd8-bbed-5712-a021-88535fd398a1
+    tag: concept
+    name: 技能动作映射规则
+    domain: 技能系统
+    subdomain: 工具映射
+    domain_slug: 技能系统
+    subdomain_slug: 工具映射
+    shared: true
+    members:
+      - using-superpowers-concept-技能动作到-gemini-cli-工具的映射
+      - using-superpowers-concept-技能动作到-pi-工具的映射规则
+    summary_hash: sha256:b1d15a7a19d6628c66d2cc3212795645956173f713d9de1e445832fd1aa24904
+    description_hash: sha256:8ce696d85b74429b0697d6a8ec3496c37838410c4349ba3b6bc40fe488aa2768
+    provenance: llm_inferred

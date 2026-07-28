@@ -1,0 +1,20 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: _shared/技能系统/skill-action-mapping-rules.md
+doc_hash: sha256:0508893e24ac7a2c52826b984be1b748d0b7d13af3a6f030d3ea20bac15d08e4
+generated_at: "2026-07-28T17:39:35Z"
+nodes:
+  - uuid: 9ba0cbd8-bbed-5712-a021-88535fd398a1
+    tag: concept
+    name: 技能动作映射规则
+    domain: 技能系统
+    subdomain: 工具映射
+    domain_slug: 技能系统
+    subdomain_slug: 工具映射
+    shared: true
+    members:
+      - using-superpowers-concept-技能动作到-gemini-cli-工具的映射
+      - using-superpowers-concept-技能动作到-pi-工具的映射规则
+    summary_hash: sha256:b1d15a7a19d6628c66d2cc3212795645956173f713d9de1e445832fd1aa24904
+    description_hash: sha256:8ce696d85b74429b0697d6a8ec3496c37838410c4349ba3b6bc40fe488aa2768
+    provenance: llm_inferred

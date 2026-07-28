@@ -1,0 +1,118 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: skills/using-superpowers/references/codex-tools.md
+doc_hash: sha256:a79406f74f89d3b644342ec2ba065ce6d298711b4687885877d4e94f72b921e1
+generated_at: "2026-07-28T17:39:35Z"
+nodes:
+  - uuid: dbbf80e6-85e1-5cce-b109-8a64e59f569c
+    tag: entity
+    name: 子代理分派工具
+    domain: 子代理管理
+    subdomain: 代理调度与生命周期
+    domain_slug: 子代理管理
+    subdomain_slug: 代理调度与生命周期
+    shared: true
+    members:
+      - using-superpowers-entity-invoke-agent
+      - using-superpowers-entity-invoke-subagent
+      - using-superpowers-entity-spawn-agent-工具
+      - using-superpowers-entity-subagent-工具
+    summary_hash: sha256:561045db72afba62d0514dace579a873fdb5994520bc028472a3e666ac77be64
+    description_hash: sha256:4255a00fc7abef8ecebc9b69d2c4908f35d4cd939823e99eaabdcab833b51791
+    provenance: llm_inferred
+  - uuid: 9869663a-fc81-553f-bb68-11a30327108a
+    tag: entity
+    name: 子代理等待工具
+    domain: 子代理管理
+    subdomain: 代理调度与生命周期
+    domain_slug: 子代理管理
+    subdomain_slug: 代理调度与生命周期
+    shared: false
+    members:
+      - using-superpowers-entity-wait-agent-工具
+    summary_hash: sha256:8b4b0f03b1c91b68817163b47af6c9002adc11e347f7d43b093b83799cb81004
+    description_hash: sha256:9f7f8eec35da0f0f2b78595785f2526ad2bd21933c6ecd2d40204dc02cd4b0fd
+    provenance: llm_inferred
+  - uuid: f6a8f8c3-119b-5a9b-89ad-fabcefd66afa
+    tag: entity
+    name: 子代理关闭工具
+    domain: 子代理管理
+    subdomain: 代理调度与生命周期
+    domain_slug: 子代理管理
+    subdomain_slug: 代理调度与生命周期
+    shared: false
+    members:
+      - using-superpowers-entity-close-agent-工具
+    summary_hash: sha256:2c09eb214b346e1bf09b66474389e6d9cc74bc60e9da2e348213530abcaa4496
+    description_hash: sha256:a6c1599fc42bb227dd8f6ca7d8c9aac5da41a485d2d55c72650e5873630ec70b
+    provenance: llm_inferred
+  - uuid: 817bef50-27e5-5fc5-b3ab-cf442c80e59f
+    tag: concept
+    name: 子代理调度使用准则
+    domain: 子代理管理
+    subdomain: 代理调度与生命周期
+    domain_slug: 子代理管理
+    subdomain_slug: 代理调度与生命周期
+    shared: false
+    members:
+      - using-superpowers-concept-子代理调度使用准则
+    summary_hash: sha256:9c6a03d3a9266a955d5ac8574a44fff1a46afa0f3958159f17162f2b567826b1
+    description_hash: sha256:ab364156bb9bb926bd405e7723f560bc84a6b6e3746950ab78a4bf9cc95de187
+    provenance: llm_inferred
+  - uuid: e3988be1-41ac-5960-a2bc-b1c860076bb3
+    tag: entity
+    name: 预定义子代理类型
+    domain: 子代理管理
+    subdomain: 代理类型
+    domain_slug: 子代理管理
+    subdomain_slug: 代理类型
+    shared: true
+    members:
+      - using-superpowers-entity-browser-agent
+      - using-superpowers-entity-cli-help
+      - using-superpowers-entity-codebase-investigator
+      - using-superpowers-entity-generalist
+      - using-superpowers-entity-实现子代理
+      - using-superpowers-entity-审查子代理
+    summary_hash: sha256:26cd1a5a92b6260aa34c8fa824eb3eb97134bb5831abf9106f570185e95bc943
+    description_hash: sha256:ee46fd65416be7f41127c6ffda8f43bd6c4b84d0533455408393f5c7ff9de8c2
+    provenance: llm_inferred
+  - uuid: 2a439f3e-3392-5b2d-9fc4-23d9ca1cc7a5
+    tag: concept
+    name: 多代理配置
+    domain: 子代理管理
+    subdomain: 代理类型
+    domain_slug: 子代理管理
+    subdomain_slug: 代理类型
+    shared: false
+    members:
+      - using-superpowers-concept-multi-agent-配置
+    summary_hash: sha256:3aaba226840e805b14694b1c9c43be0c2dbf17c6bc8d1467f60d24d751df740f
+    description_hash: sha256:a321868f408c5b061ac90e8ed9b3ecde06c48af30b0452151da9ec54ab9ef0a8
+    provenance: llm_inferred
+  - uuid: 7f3b4523-0599-5b70-8ee6-60d2ecd2eda3
+    tag: concept
+    name: Git环境检测
+    domain: 平台集成
+    subdomain: Git与Codex流程
+    domain_slug: 平台集成
+    subdomain_slug: git与codex流程
+    shared: false
+    members:
+      - using-superpowers-concept-git-环境检测方法
+    summary_hash: sha256:3413d45643b3626931639cb521cef34a4ec951868c1764bc857087ebfdeaca10
+    description_hash: sha256:41218c37f69b2dc441a5c4cccb4acef02bef017257ce9c76fada50a4ae312840
+    provenance: llm_inferred
+  - uuid: 05888306-652d-5de9-bf77-e4d687f7904b
+    tag: concept
+    name: Codex App完成流程
+    domain: 平台集成
+    subdomain: Git与Codex流程
+    domain_slug: 平台集成
+    subdomain_slug: git与codex流程
+    shared: false
+    members:
+      - using-superpowers-concept-codex-app-完成流程
+    summary_hash: sha256:54fce0716c44a1ba9f3994bc6ae0643b7f67f864f80d7cc4f0d8c36c2bc82436
+    description_hash: sha256:7eb1dd7f2209062bc4099c1dce75fd43ea68d29c63c7fc2d4bd8231f00096ccd
+    provenance: llm_inferred
