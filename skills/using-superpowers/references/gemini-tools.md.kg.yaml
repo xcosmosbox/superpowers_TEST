@@ -1,0 +1,67 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: skills/using-superpowers/references/gemini-tools.md
+doc_hash: sha256:e7c60846d3ab465fd9265af5e761f92a35351446429f451d44090c66150d9842
+generated_at: "2026-07-28T16:48:45Z"
+nodes:
+  - uuid: b34c79f5-5c48-5049-8b58-961dfdb307b0
+    tag: concept
+    name: 子代理调度策略与生命周期
+    domain: 多智能体开发与任务编排
+    subdomain: 子代理调度与生命周期
+    domain_slug: 多智能体开发与任务编排
+    subdomain_slug: 子代理调度与生命周期
+    shared: true
+    members:
+      - using-superpowers-concept-多代理支持配置
+      - using-superpowers-concept-子代理生命周期管理
+      - using-superpowers-concept-子代理调度
+      - using-superpowers-concept-并行子代理调度
+      - using-superpowers-concept-提示模板填充规则
+    summary_hash: sha256:a366dbd78df1763e76d42d966d3bce56a6996de0d4a0356fab10deb5011fb02f
+    description_hash: sha256:7e8989845dae91dc9233cacd668821cc7485591e8b611c06059856dede061ac4
+    provenance: llm_inferred
+  - uuid: 68ba2305-3366-5535-b8c8-b0297710bbfc
+    tag: concept
+    name: 技能动作映射规则
+    domain: 多智能体开发与任务编排
+    subdomain: 技能动作映射与执行
+    domain_slug: 多智能体开发与任务编排
+    subdomain_slug: 技能动作映射与执行
+    shared: true
+    members:
+      - using-superpowers-concept-dispatch-a-subagent-action-mapping
+      - using-superpowers-concept-skills-to-cli-action-mapping
+      - using-superpowers-concept-技能动作到gemini-cli工具的映射
+    summary_hash: sha256:5aad8d068c114448fc7a943d3d2311db5b00d9b91a21fd18646290c6cf5f117d
+    description_hash: sha256:f17bc2fd19246b72159e1afe4dd530586faca3e40c5e787599ac42478bbbf436
+    provenance: llm_inferred
+  - uuid: 2b329f45-0fae-5627-81ee-b20ac9c7d113
+    tag: entity
+    name: CLI配置与技能目录
+    domain: 多智能体开发与任务编排
+    subdomain: CLI环境与配置
+    domain_slug: 多智能体开发与任务编排
+    subdomain_slug: cli环境与配置
+    shared: true
+    members:
+      - using-superpowers-entity-agents-skills
+      - using-superpowers-entity-antigravity-cli-agy
+      - using-superpowers-entity-gemini-md
+      - using-superpowers-entity-gemini-skills
+    summary_hash: sha256:cb896d004c911fe7c1770e162e83359bece224249a93d26a832989f921d783f9
+    description_hash: sha256:35122605dc79260f30f119328f54f12e5322261b47a67cd317929855df655553
+    provenance: llm_inferred
+  - uuid: 196c2775-69d6-530a-8225-e924366ccb75
+    tag: concept
+    name: Gemini CLI额外工具集
+    domain: 多智能体开发与任务编排
+    subdomain: CLI环境与配置
+    domain_slug: 多智能体开发与任务编排
+    subdomain_slug: cli环境与配置
+    shared: false
+    members:
+      - using-superpowers-concept-gemini-cli额外工具集
+    summary_hash: sha256:2efe715d1843dd9f495577c8921e12b50515ca51f202bdc4a8e62564446ad47c
+    description_hash: sha256:6aacb591fecb3f2b9e9c83caf676da8a64b7d5cc6bc9bbf6ab79e0dcd801cc68
+    provenance: llm_inferred
