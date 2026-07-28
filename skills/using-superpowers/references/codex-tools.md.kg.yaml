@@ -1,0 +1,37 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: skills/using-superpowers/references/codex-tools.md
+doc_hash: sha256:01870cde9fefe658a4da1fad55cdecaeed6dec618813f6d90da25ac1a24aab19
+generated_at: "2026-07-28T16:48:45Z"
+nodes:
+  - uuid: b34c79f5-5c48-5049-8b58-961dfdb307b0
+    tag: concept
+    name: 子代理调度策略与生命周期
+    domain: 多智能体开发与任务编排
+    subdomain: 子代理调度与生命周期
+    domain_slug: 多智能体开发与任务编排
+    subdomain_slug: 子代理调度与生命周期
+    shared: true
+    members:
+      - using-superpowers-concept-多代理支持配置
+      - using-superpowers-concept-子代理生命周期管理
+      - using-superpowers-concept-子代理调度
+      - using-superpowers-concept-并行子代理调度
+      - using-superpowers-concept-提示模板填充规则
+    summary_hash: sha256:a366dbd78df1763e76d42d966d3bce56a6996de0d4a0356fab10deb5011fb02f
+    description_hash: sha256:7e8989845dae91dc9233cacd668821cc7485591e8b611c06059856dede061ac4
+    provenance: llm_inferred
+  - uuid: 10054a24-9306-57b9-a0b2-d1b5f9e617cb
+    tag: concept
+    name: Git环境自适应流程
+    domain: 多智能体开发与任务编排
+    subdomain: Git环境检测与流程控制
+    domain_slug: 多智能体开发与任务编排
+    subdomain_slug: git环境检测与流程控制
+    shared: false
+    members:
+      - using-superpowers-concept-codex-app完成流程
+      - using-superpowers-concept-git环境检测方法
+    summary_hash: sha256:41b28a41edb8267155d7cb3fa364c2b508552ed6bfb226f8910f4cdc385bc30b
+    description_hash: sha256:01853a56dd7391cea28c763a1981fafa7b1fe3e2ae847fc78cb28c3c42e263ac
+    provenance: llm_inferred

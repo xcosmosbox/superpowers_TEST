@@ -1,0 +1,23 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: _shared/多智能体开发与任务编排/sub-agent-scheduling-strategy-lifecycle.md
+doc_hash: sha256:ab229acebdb539d3b6b31d1f236c15d7563fd58fcf11be3b1e0163b652c7eb1d
+generated_at: "2026-07-28T16:48:45Z"
+nodes:
+  - uuid: b34c79f5-5c48-5049-8b58-961dfdb307b0
+    tag: concept
+    name: 子代理调度策略与生命周期
+    domain: 多智能体开发与任务编排
+    subdomain: 子代理调度与生命周期
+    domain_slug: 多智能体开发与任务编排
+    subdomain_slug: 子代理调度与生命周期
+    shared: true
+    members:
+      - using-superpowers-concept-多代理支持配置
+      - using-superpowers-concept-子代理生命周期管理
+      - using-superpowers-concept-子代理调度
+      - using-superpowers-concept-并行子代理调度
+      - using-superpowers-concept-提示模板填充规则
+    summary_hash: sha256:a366dbd78df1763e76d42d966d3bce56a6996de0d4a0356fab10deb5011fb02f
+    description_hash: sha256:7e8989845dae91dc9233cacd668821cc7485591e8b611c06059856dede061ac4
+    provenance: llm_inferred

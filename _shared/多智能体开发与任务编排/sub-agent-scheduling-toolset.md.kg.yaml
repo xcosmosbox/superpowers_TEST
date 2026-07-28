@@ -1,0 +1,21 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: _shared/多智能体开发与任务编排/sub-agent-scheduling-toolset.md
+doc_hash: sha256:1525c981a118775b9e41528660007aba121ca7dd4c0bfda6cdde29f65682cf1c
+generated_at: "2026-07-28T16:48:45Z"
+nodes:
+  - uuid: 3ff2eeb1-4f02-5e80-a2a2-3e532dae99c4
+    tag: entity
+    name: 子代理调度工具集
+    domain: 多智能体开发与任务编排
+    subdomain: 子代理调度与生命周期
+    domain_slug: 多智能体开发与任务编排
+    subdomain_slug: 子代理调度与生命周期
+    shared: true
+    members:
+      - using-superpowers-entity-invoke-subagent-tool
+      - using-superpowers-entity-pi-subagents-package
+      - using-superpowers-entity-subagent-tool
+    summary_hash: sha256:3cc85eb88b6ca76bf674f685cfee8e7798c773fec2d44faa5f86af5530395af7
+    description_hash: sha256:afd647736beec69a351e242ed50b0b0cfa3e20b175e00b425596a5a9b765e4f8
+    provenance: llm_inferred

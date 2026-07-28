@@ -1,0 +1,22 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: _shared/多智能体开发与任务编排/task-tracking-artifacts.md
+doc_hash: sha256:aaa94afc9dc89ef01d52b7e527dc5b72034a0a5c53ddd512f400d0e8d97a85b2
+generated_at: "2026-07-28T16:48:45Z"
+nodes:
+  - uuid: ecb8907c-acc1-571f-9cbd-d034b5d3a1c2
+    tag: entity
+    name: 任务跟踪工件
+    domain: 多智能体开发与任务编排
+    subdomain: 任务跟踪与工件管理
+    domain_slug: 多智能体开发与任务编排
+    subdomain_slug: 任务跟踪与工件管理
+    shared: true
+    members:
+      - using-superpowers-entity-superpowers-plan-files
+      - using-superpowers-entity-task-artifact
+      - using-superpowers-entity-todo-md-file
+      - using-superpowers-entity-todowrite-legacy-action
+    summary_hash: sha256:ffe49e2a413e1bc26d08c97ecc76f8f62e57acf6f8c14c3f00d7989897c32da9
+    description_hash: sha256:b63aae852c0b06a2956062330f8e74dff2b4c3fa5c88bec7088af069b0849c37
+    provenance: llm_inferred
