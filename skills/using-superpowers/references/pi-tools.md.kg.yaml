@@ -1,0 +1,49 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: skills/using-superpowers/references/pi-tools.md
+doc_hash: sha256:ac28adf6b722015d3117224a63d0d4939c17a18ddce49457a6a42774c6949527
+generated_at: "2026-07-28T16:19:18Z"
+nodes:
+  - uuid: 17698f72-ad9e-5c21-bec0-6375ff13b189
+    tag: entity
+    name: 子代理工具
+    domain: 代理编排
+    subdomain: 子代理执行
+    domain_slug: 代理编排
+    subdomain_slug: 子代理执行
+    shared: true
+    members:
+      - using-superpowers-entity-invoke-subagent
+      - using-superpowers-entity-pi-subagents-package
+      - using-superpowers-entity-subagent-tool
+    summary_hash: sha256:8e228b4e79d8bc27be8002516b582c3e92199c339b80c2835a96b37c3ab8888c
+    description_hash: sha256:8b76c1b3280aa296d5f431423993e5fed5fe363846992a7c0a4c75f661f2c4df
+    provenance: llm_inferred
+  - uuid: 4bc9b020-f88e-5fd8-902e-38c5fb637a28
+    tag: concept
+    name: 子代理分派映射
+    domain: 代理编排
+    subdomain: 子代理执行
+    domain_slug: 代理编排
+    subdomain_slug: 子代理执行
+    shared: true
+    members:
+      - using-superpowers-concept-dispatch-a-subagent-映射到-invoke-agent-工具
+      - using-superpowers-concept-subagent-dispatch-mapping
+    summary_hash: sha256:a723bc3046e2b0bff25747d169157153a0da94a453e2b8c06ebf4bfef5fc14a2
+    description_hash: sha256:093776784ce91a1bfd023d9fe342fbea06081f15a967a4b73709ef5e03a6cb47
+    provenance: llm_inferred
+  - uuid: 5c73e6dc-f6d5-572e-982c-174e020e9cf3
+    tag: concept
+    name: 任务跟踪映射
+    domain: 任务跟踪
+    subdomain: 任务管理
+    domain_slug: 任务跟踪
+    subdomain_slug: 任务管理
+    shared: true
+    members:
+      - using-superpowers-concept-task-tracking-mapping
+      - using-superpowers-concept-task-tracking-映射到-write-todos-工具
+    summary_hash: sha256:1ab6dd8f0d717aafccd1b26ac6d825f09da0728446485b3895d78eed92672925
+    description_hash: sha256:016497e82a507cb71ef665b7288cef58104edb1c9c1f0ba5b3d53a87dae2d9d6
+    provenance: llm_inferred

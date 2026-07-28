@@ -1,0 +1,21 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: _shared/代理编排/node-abcd8a8a.md
+doc_hash: sha256:66e04fd756ba0d7642bf6697bb0c4ca88244c295fa66625367fa46e55ed595af
+generated_at: "2026-07-28T16:19:18Z"
+nodes:
+  - uuid: 17698f72-ad9e-5c21-bec0-6375ff13b189
+    tag: entity
+    name: 子代理工具
+    domain: 代理编排
+    subdomain: 子代理执行
+    domain_slug: 代理编排
+    subdomain_slug: 子代理执行
+    shared: true
+    members:
+      - using-superpowers-entity-invoke-subagent
+      - using-superpowers-entity-pi-subagents-package
+      - using-superpowers-entity-subagent-tool
+    summary_hash: sha256:8e228b4e79d8bc27be8002516b582c3e92199c339b80c2835a96b37c3ab8888c
+    description_hash: sha256:8b76c1b3280aa296d5f431423993e5fed5fe363846992a7c0a4c75f661f2c4df
+    provenance: llm_inferred

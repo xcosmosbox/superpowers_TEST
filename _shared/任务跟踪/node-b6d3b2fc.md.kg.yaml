@@ -1,0 +1,20 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: _shared/任务跟踪/node-b6d3b2fc.md
+doc_hash: sha256:ae09c55d72099a43c4ee899d701fff2cc539b58dc9fa7cd641030595f969385e
+generated_at: "2026-07-28T16:19:18Z"
+nodes:
+  - uuid: 5c73e6dc-f6d5-572e-982c-174e020e9cf3
+    tag: concept
+    name: 任务跟踪映射
+    domain: 任务跟踪
+    subdomain: 任务管理
+    domain_slug: 任务跟踪
+    subdomain_slug: 任务管理
+    shared: true
+    members:
+      - using-superpowers-concept-task-tracking-mapping
+      - using-superpowers-concept-task-tracking-映射到-write-todos-工具
+    summary_hash: sha256:1ab6dd8f0d717aafccd1b26ac6d825f09da0728446485b3895d78eed92672925
+    description_hash: sha256:016497e82a507cb71ef665b7288cef58104edb1c9c1f0ba5b3d53a87dae2d9d6
+    provenance: llm_inferred

@@ -1,0 +1,20 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: _shared/代理编排/node-441c4c1e.md
+doc_hash: sha256:c5905b32a03453bd464df3cd09d2356d8a6dd90f76b1e28bba427533a427dbd9
+generated_at: "2026-07-28T16:19:18Z"
+nodes:
+  - uuid: 4bc9b020-f88e-5fd8-902e-38c5fb637a28
+    tag: concept
+    name: 子代理分派映射
+    domain: 代理编排
+    subdomain: 子代理执行
+    domain_slug: 代理编排
+    subdomain_slug: 子代理执行
+    shared: true
+    members:
+      - using-superpowers-concept-dispatch-a-subagent-映射到-invoke-agent-工具
+      - using-superpowers-concept-subagent-dispatch-mapping
+    summary_hash: sha256:a723bc3046e2b0bff25747d169157153a0da94a453e2b8c06ebf4bfef5fc14a2
+    description_hash: sha256:093776784ce91a1bfd023d9fe342fbea06081f15a967a4b73709ef5e03a6cb47
+    provenance: llm_inferred

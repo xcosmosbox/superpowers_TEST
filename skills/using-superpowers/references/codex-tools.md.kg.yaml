@@ -1,0 +1,136 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: skills/using-superpowers/references/codex-tools.md
+doc_hash: sha256:ae7080b39e3a3659e97f52bdff0a91889c7857e0aa393262d92f4ad3b459f104
+generated_at: "2026-07-28T16:19:18Z"
+nodes:
+  - uuid: d17f55e7-353b-5fbc-a402-3cb1eb27f4ef
+    tag: entity
+    name: Spawn Agent 工具
+    domain: 代理编排
+    subdomain: 子代理执行
+    domain_slug: 代理编排
+    subdomain_slug: 子代理执行
+    shared: false
+    members:
+      - using-superpowers-entity-spawn-agent-工具
+    summary_hash: sha256:1e855a5fda8e385fe88f0881778f23d7121cbf5ce11542be65ba64a253ec1efb
+    description_hash: sha256:0eec719dbbd7e9dd038fb659659c613bf1713dd23a6366846ae5d238a2ed1992
+    provenance: llm_inferred
+  - uuid: 9869663a-fc81-553f-bb68-11a30327108a
+    tag: entity
+    name: Wait Agent 工具
+    domain: 代理编排
+    subdomain: 子代理执行
+    domain_slug: 代理编排
+    subdomain_slug: 子代理执行
+    shared: false
+    members:
+      - using-superpowers-entity-wait-agent-工具
+    summary_hash: sha256:4e992d5bcce31063661beb75abd56207de47954d3a328c67083d921a040aff76
+    description_hash: sha256:916a519ad0433653fb158bdf9471a88d842ad2a5678be02999cf238a86d38c66
+    provenance: llm_inferred
+  - uuid: f6a8f8c3-119b-5a9b-89ad-fabcefd66afa
+    tag: entity
+    name: Close Agent 工具
+    domain: 代理编排
+    subdomain: 子代理执行
+    domain_slug: 代理编排
+    subdomain_slug: 子代理执行
+    shared: false
+    members:
+      - using-superpowers-entity-close-agent-工具
+    summary_hash: sha256:5d03a19eaedf700dcda99f96f500856d82b4164e2b269680f69848da54cd9f90
+    description_hash: sha256:80621c6dc7c3a33ac6f231a894f39c67ee831536ced0bcc74ba9f3763f2453df
+    provenance: llm_inferred
+  - uuid: a27f7d07-fe20-5635-9805-ec3d3e7e66b6
+    tag: concept
+    name: 子代理调度最佳实践
+    domain: 代理编排
+    subdomain: 子代理执行
+    domain_slug: 代理编排
+    subdomain_slug: 子代理执行
+    shared: false
+    members:
+      - using-superpowers-concept-子代理调度最佳实践
+    summary_hash: sha256:fe4c6a2c3d8fda97a9d063f978fcc53a83a49f00d23a7c51353d3edc259657f3
+    description_hash: sha256:3910eb0edc4b9f7007c55f0df75098f00b246f3ac2dd31559188fc3d0aabc3df
+    provenance: llm_inferred
+  - uuid: b3504714-0737-5fb4-8153-cc7bbcd49437
+    tag: concept
+    name: 多代理支持配置
+    domain: 代理编排
+    subdomain: 子代理执行
+    domain_slug: 代理编排
+    subdomain_slug: 子代理执行
+    shared: false
+    members:
+      - using-superpowers-concept-多代理支持配置
+    summary_hash: sha256:6e66851f880e67a8e2d371c97a6d1faa39a19392d820a16acf5d0f54c6a8637b
+    description_hash: sha256:9cca4763300b5012036840179917f4318fc7f7f734550f674e82355c33d3b898
+    provenance: llm_inferred
+  - uuid: 5a439118-465b-5d1a-b34f-e66d6a22cb37
+    tag: entity
+    name: Codex 配置文件
+    domain: 配置与上下文
+    subdomain: 环境配置
+    domain_slug: 配置与上下文
+    subdomain_slug: 环境配置
+    shared: false
+    members:
+      - using-superpowers-entity-codex-配置文件
+    summary_hash: sha256:696e045b8582bf2a7e7086ef6d1af340feba2054c88d2e563074e726037d422f
+    description_hash: sha256:cfda28cb7616062df7b85aa5b86998b18eb4af9373ad51919dc0b64079d5c198
+    provenance: llm_inferred
+  - uuid: 1ca7cd48-a087-5f92-81cf-7718673e7d39
+    tag: entity
+    name: Create Branch 原生控件
+    domain: 开发工作流
+    subdomain: 代码管理
+    domain_slug: 开发工作流
+    subdomain_slug: 代码管理
+    shared: false
+    members:
+      - using-superpowers-entity-create-branch-原生控件
+    summary_hash: sha256:6682ccd65bdd7d16dd5857fa8ed32f98fcb45fe5f1e5558403b7707624ced3e9
+    description_hash: sha256:a3c6970d3176ec7cf03d5deef435dd18dcdf48efeddba84aa615709f488e923f
+    provenance: llm_inferred
+  - uuid: a30e558d-950e-5dc8-b593-6e1147aa5efd
+    tag: entity
+    name: Hand Off to Local 原生控件
+    domain: 开发工作流
+    subdomain: 代码管理
+    domain_slug: 开发工作流
+    subdomain_slug: 代码管理
+    shared: false
+    members:
+      - using-superpowers-entity-hand-off-to-local-原生控件
+    summary_hash: sha256:21fe494c3f8c78d704b69f102b19fca3362ae72aa8bbb404d8dc369613992d23
+    description_hash: sha256:c2e2e5e05270147f39d121c299a90fb2d068e71439059f83f5337dfb4102dade
+    provenance: llm_inferred
+  - uuid: e9ca63ab-6caa-5c5d-909b-06db1aae37a9
+    tag: concept
+    name: 环境检测方法
+    domain: 开发工作流
+    subdomain: 代码管理
+    domain_slug: 开发工作流
+    subdomain_slug: 代码管理
+    shared: false
+    members:
+      - using-superpowers-concept-环境检测方法
+    summary_hash: sha256:cb90aca528b0885718f40d8300fdf9f948f9aa5bac474bd08729373a5487f530
+    description_hash: sha256:1eff8849673553f75e0cc11e521c0b6c3838dedacdca8b3567bdfce45008e811
+    provenance: llm_inferred
+  - uuid: 05888306-652d-5de9-bf77-e4d687f7904b
+    tag: concept
+    name: Codex App 完成流程
+    domain: 开发工作流
+    subdomain: 代码管理
+    domain_slug: 开发工作流
+    subdomain_slug: 代码管理
+    shared: false
+    members:
+      - using-superpowers-concept-codex-app-完成流程
+    summary_hash: sha256:23561c313c7e03e05507c77b4225c3b2b5c905836a3c78ca6091036c0d1640a8
+    description_hash: sha256:e042def2e8b2e0fa389a5cc0ed1c7e5269d92a18eb7e53639ee527a5d28fd555
+    provenance: llm_inferred

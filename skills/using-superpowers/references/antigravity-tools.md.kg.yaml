@@ -1,0 +1,47 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: skills/using-superpowers/references/antigravity-tools.md
+doc_hash: sha256:f8d474b61b02643de2e8ddb1988a2e8d950f05c13776f32159d4c9cbba67fedb
+generated_at: "2026-07-28T16:19:18Z"
+nodes:
+  - uuid: 17698f72-ad9e-5c21-bec0-6375ff13b189
+    tag: entity
+    name: 子代理工具
+    domain: 代理编排
+    subdomain: 子代理执行
+    domain_slug: 代理编排
+    subdomain_slug: 子代理执行
+    shared: true
+    members:
+      - using-superpowers-entity-invoke-subagent
+      - using-superpowers-entity-pi-subagents-package
+      - using-superpowers-entity-subagent-tool
+    summary_hash: sha256:8e228b4e79d8bc27be8002516b582c3e92199c339b80c2835a96b37c3ab8888c
+    description_hash: sha256:8b76c1b3280aa296d5f431423993e5fed5fe363846992a7c0a4c75f661f2c4df
+    provenance: llm_inferred
+  - uuid: 434e2cf0-7663-5ee2-a03d-9ae25a5151d8
+    tag: entity
+    name: Manage Task CLI工具
+    domain: 任务跟踪
+    subdomain: 任务管理
+    domain_slug: 任务跟踪
+    subdomain_slug: 任务管理
+    shared: false
+    members:
+      - using-superpowers-entity-manage-task
+    summary_hash: sha256:48c1f08d41ecba850334ce9f21bb3ebbf82bed1c81ba230159cc17f189beae4a
+    description_hash: sha256:f7138877e7722e1163adfa3eb163a5110660318fcef161d841bf692cdf6e6773
+    provenance: llm_inferred
+  - uuid: fe101a58-4dc4-599d-9e5a-ab40e3c20ce0
+    tag: concept
+    name: 任务跟踪工件
+    domain: 任务跟踪
+    subdomain: 任务管理
+    domain_slug: 任务跟踪
+    subdomain_slug: 任务管理
+    shared: false
+    members:
+      - using-superpowers-concept-任务跟踪工件
+    summary_hash: sha256:2b5eac788a0a6c410df3f900a408f41e8b5ea19189e57a4edabbe7a0479c1fcc
+    description_hash: sha256:528d36d10108b69a7fedf3fb34f44256bd3149a6998042c9f06cee09fd743d81
+    provenance: llm_inferred
