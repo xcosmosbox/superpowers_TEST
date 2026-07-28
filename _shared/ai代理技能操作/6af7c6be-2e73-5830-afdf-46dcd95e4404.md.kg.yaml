@@ -1,0 +1,20 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: _shared/ai代理技能操作/6af7c6be-2e73-5830-afdf-46dcd95e4404.md
+doc_hash: sha256:ac19df41c98aa8192d20bb749ad0ae0d41be29a09c87688442507af87aeb2872
+generated_at: "2026-07-28T15:16:35Z"
+nodes:
+  - uuid: 6af7c6be-2e73-5830-afdf-46dcd95e4404
+    tag: entity
+    name: 子代理调度工具
+    domain: AI代理技能操作
+    subdomain: 子代理调度与管理
+    domain_slug: ai代理技能操作
+    subdomain_slug: 子代理调度与管理
+    shared: true
+    members:
+      - using-superpowers-entity-invoke-subagent-tool
+      - using-superpowers-entity-subagent-tool-pi-subagents
+    summary_hash: sha256:b33a66679444d5d4da15785e6ec218eafebda7b4700db9b163b75d3619f6b9db
+    description_hash: sha256:a3ee44bb3deef5697251fe46f296e5f6023665e02783ba76929713f4bbb78149
+    provenance: llm_inferred

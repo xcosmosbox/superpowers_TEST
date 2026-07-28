@@ -1,0 +1,72 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: skills/using-superpowers/references/antigravity-tools.md
+doc_hash: sha256:bc92fa8d491f73af72c84de35e8604608538bc20cc17d53ce2bb71b3d0b05a9a
+generated_at: "2026-07-28T15:16:35Z"
+nodes:
+  - uuid: 6af7c6be-2e73-5830-afdf-46dcd95e4404
+    tag: entity
+    name: 子代理调度工具
+    domain: AI代理技能操作
+    subdomain: 子代理调度与管理
+    domain_slug: ai代理技能操作
+    subdomain_slug: 子代理调度与管理
+    shared: true
+    members:
+      - using-superpowers-entity-invoke-subagent-tool
+      - using-superpowers-entity-subagent-tool-pi-subagents
+    summary_hash: sha256:b33a66679444d5d4da15785e6ec218eafebda7b4700db9b163b75d3619f6b9db
+    description_hash: sha256:a3ee44bb3deef5697251fe46f296e5f6023665e02783ba76929713f4bbb78149
+    provenance: llm_inferred
+  - uuid: cf7f650a-851a-5303-b396-c27d2bacdd5f
+    tag: entity
+    name: Antigravity CLI
+    domain: AI代理技能操作
+    subdomain: 工具映射与指令解析
+    domain_slug: ai代理技能操作
+    subdomain_slug: 工具映射与指令解析
+    shared: false
+    members:
+      - using-superpowers-entity-antigravity-cli-agy
+    summary_hash: sha256:3248df68b1d662e9330d88c1032104204a8e0c17af761982f5ccf3a9490e2940
+    description_hash: sha256:640b8d8fc7435f5f22aafdc394e3093bc2ee7f67df2d23b84662c5ec1e393866
+    provenance: llm_inferred
+  - uuid: ba503059-44b1-50f0-a3aa-0b5ff754970b
+    tag: concept
+    name: 任务跟踪工件方法
+    domain: AI代理技能操作
+    subdomain: 任务跟踪与流程控制
+    domain_slug: ai代理技能操作
+    subdomain_slug: 任务跟踪与流程控制
+    shared: false
+    members:
+      - using-superpowers-concept-task-tracking-via-task-artifact
+    summary_hash: sha256:af7c4389fe6b4869b357c4644d5e1bc5ef811d2314bee97d0a8d9093a928273a
+    description_hash: sha256:67f4e662da47ccdff7bf5adba10d0dedf98876eb4ec71c455143bfeff3fbb191
+    provenance: llm_inferred
+  - uuid: 5cc0048f-0e21-5377-af20-d9dbd5b132f0
+    tag: concept
+    name: manage_task工具用途与限制
+    domain: AI代理技能操作
+    subdomain: 任务跟踪与流程控制
+    domain_slug: ai代理技能操作
+    subdomain_slug: 任务跟踪与流程控制
+    shared: false
+    members:
+      - using-superpowers-concept-manage-task-tool-purpose-and-limitations
+    summary_hash: sha256:48a8eeedc9d042fd2e14d518d3d6582ff2c709116b4ef25353819c4868ef305f
+    description_hash: sha256:bc5c53261ede9d888f914b8a67b693e8065b19a4719fa5ea3e04065c195b28d7
+    provenance: llm_inferred
+  - uuid: ef104001-12b5-5cec-a1c6-47d0fae92b68
+    tag: entity
+    name: write_to_file工具
+    domain: AI代理技能操作
+    subdomain: 辅助工具与交互
+    domain_slug: ai代理技能操作
+    subdomain_slug: 辅助工具与交互
+    shared: false
+    members:
+      - using-superpowers-entity-write-to-file-tool
+    summary_hash: sha256:7244d97d55d98d53952d74931241a3cf7a33ab28086bc521981adfb248c7daf1
+    description_hash: sha256:741ffcf89f1aa8ff2bc5503f813107bfe92008fc58951d6da98a36a480c4aa4c
+    provenance: llm_inferred
