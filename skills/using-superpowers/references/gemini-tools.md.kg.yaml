@@ -1,372 +1,357 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/gemini-tools.md
-doc_hash: sha256:1ff595fcb8c4bd331538b80efd61abf1b217bd65a5e8e8855996d10ead8e4bb0
-generated_at: "2026-07-29T08:41:54Z"
+doc_hash: sha256:012fe071721b223d935a1b21b8e47d26113c1f0102e2720cf061a438335bf3cd
+generated_at: "2026-07-29T09:09:07Z"
 nodes:
-  - uuid: 0c3512bb-01a0-554a-90c2-82ac75464088
+  - uuid: 005bc38e-9595-5fcf-87f6-32d35a2f1922
     tag: entity
-    name: 子代理调度工具
-    domain: AI代理增强与技能集成
-    subdomain: 子代理调度与集成
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 子代理调度与集成
-    shared: true
+    name: ask_user工具
+    domain: 对话式AI代理基础设施
+    subdomain: 对话会话管理
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 对话会话管理
+    shared: false
     members:
-      - using-superpowers-entity-invoke-agent-工具
-      - using-superpowers-entity-invoke-subagent工具
-      - using-superpowers-entity-subagent-tool
-    summary_hash: sha256:c6a7e361a1a13cdd9a4f98984a7041aa1bbdb9ba3ca864ae1c699e36878e5829
-    description_hash: sha256:e52964628ea215efdde163e026bcf7e7fc5cd4cdde1b00846107b895920a59b4
+      - using-superpowers-entity-ask-user工具
+    summary_hash: sha256:9bc1f149bef642e8dd5475cf736d1cc81a7547f55beec085b03d9d80648d47ab
+    description_hash: sha256:e4f13c12c2fc5a2d6943e62fe303af0f46c8bf785abb910c988020af0cf7d915
     provenance: llm_inferred
-  - uuid: 70ad7211-3d09-5661-a000-94b54272c1b0
+  - uuid: 5e7bd950-fa28-50c8-ae76-55b6bf661a1a
     tag: entity
-    name: 技能存储目录
-    domain: AI代理增强与技能集成
-    subdomain: 子代理调度与集成
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 子代理调度与集成
+    name: complete_task工具
+    domain: 对话式AI代理基础设施
+    subdomain: 对话会话管理
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 对话会话管理
     shared: false
     members:
-      - using-superpowers-entity-gemini-skills-目录
-    summary_hash: sha256:cc7685e19701d67240e6b01835c27d53ecac3a9c44671014ea33069c5c5f8dd4
-    description_hash: sha256:37674037d98238d533632ddad9d8f1f2d4a029314506fa69c5709b96bd0cde11
+      - using-superpowers-entity-complete-task工具
+    summary_hash: sha256:ce12d40756c3745fbfeb1d21fa962143b7b24f835e357634dbcb0797b2777753
+    description_hash: sha256:70473e677a01d613511924183f0197cebd6981ba645413d7579caa28319b1826
     provenance: llm_inferred
-  - uuid: b3b0ff5f-63b6-5625-ad1e-206b3a54a944
+  - uuid: 9a69a2d8-c5a7-5405-abbe-8260ef3f5267
+    tag: entity
+    name: enter_plan_mode工具
+    domain: 对话式AI代理基础设施
+    subdomain: 对话会话管理
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 对话会话管理
+    shared: false
+    members:
+      - using-superpowers-entity-enter-plan-mode工具
+    summary_hash: sha256:b68ac98917f1c3307e1bbcd2b95be9006bdac4a60e45b2845ab18f175204d146
+    description_hash: sha256:24bccc7341b46c6897716c319cb1ba11218a604348c1f2f7ec5dd4d93dd3428e
+    provenance: llm_inferred
+  - uuid: b321daf8-9c2c-5f1c-81e6-d3c0d5849860
+    tag: entity
+    name: exit_plan_mode工具
+    domain: 对话式AI代理基础设施
+    subdomain: 对话会话管理
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 对话会话管理
+    shared: false
+    members:
+      - using-superpowers-entity-exit-plan-mode工具
+    summary_hash: sha256:d281c51d5dc4833580247b172dbdffde9fa5c23e8ae132d459f4b2638e8aca91
+    description_hash: sha256:e624b1d00dcfb9aa522576f5f8bb59127519494d003b49bfee834a314bee56ed
+    provenance: llm_inferred
+  - uuid: b8f17c35-3620-56d4-9c9d-554fdd1577e5
+    tag: entity
+    name: save_memory工具
+    domain: 对话式AI代理基础设施
+    subdomain: 对话会话管理
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 对话会话管理
+    shared: false
+    members:
+      - using-superpowers-entity-save-memory工具
+    summary_hash: sha256:c304afb770d09286e4a3fd253fadbc089d45cfb4cf6b0547acc63916ce9a1ec9
+    description_hash: sha256:5bf69a4ede0e399395ea8ad63377522a25d667cd2d4f68a5af045fafae5c9323
+    provenance: llm_inferred
+  - uuid: bbb51b6a-820b-5234-811f-d44b2cb3a9ce
+    tag: entity
+    name: update_topic工具
+    domain: 对话式AI代理基础设施
+    subdomain: 对话会话管理
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 对话会话管理
+    shared: false
+    members:
+      - using-superpowers-entity-update-topic工具
+    summary_hash: sha256:4f48971ead945d5c7b75142ca62b35ac2049f39659709bb828d055b5af912650
+    description_hash: sha256:d7b4cb5cec06f53dfdcbbb6cb04f6108d00843b42d7009942d2dba646e85225c
+    provenance: llm_inferred
+  - uuid: 254b4302-834a-5548-bba8-8f4e899da220
+    tag: entity
+    name: activate_skill工具
+    domain: 对话式AI代理基础设施
+    subdomain: 对话会话管理
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 对话会话管理
+    shared: false
+    members:
+      - using-superpowers-entity-activate-skill工具
+    summary_hash: sha256:4be162eb2fec338880410434e8a5deff9d9fbfd947f77988bd83d518ed055951
+    description_hash: sha256:2456e719ed3cef14d823fbf9321400799e4c0b8ddb18bc45bbdf9a62429f7212
+    provenance: llm_inferred
+  - uuid: cc7a06b6-4d56-5021-9fe1-a9f0c13da6f2
     tag: concept
-    name: 并行子代理调度
-    domain: AI代理增强与技能集成
-    subdomain: 子代理调度与集成
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 子代理调度与集成
+    name: GEMINI.md加载机制
+    domain: 对话式AI代理基础设施
+    subdomain: 对话会话管理
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 对话会话管理
     shared: false
     members:
-      - using-superpowers-concept-并行子代理调度
-    summary_hash: sha256:3e205d7fc46b0aa31e28ed6364080ed08bd06ec329592e76d5e5ae136a97905e
-    description_hash: sha256:f264e5fd50a2907afd1f5bb830f9987cfaaa92dc5bcbdc426d7db9fc6e657ca0
+      - using-superpowers-concept-gemini-md加载机制
+    summary_hash: sha256:b2a06a3a6e45f4612af2241b2c8ea8ef0784cb2f39150709342a30837d2af180
+    description_hash: sha256:acebf6166ea199e5696ee8eeb1130e7e6f09a57b106b335852688b6d28070481
     provenance: llm_inferred
-  - uuid: b6c7b813-9d4d-5f61-892d-389a9261fba7
-    tag: concept
-    name: 通用子代理快捷方式
-    domain: AI代理增强与技能集成
-    subdomain: 子代理调度与集成
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 子代理调度与集成
+  - uuid: 834c6a64-5d5d-5517-a48b-da48560c2299
+    tag: entity
+    name: glob工具
+    domain: 对话式AI代理基础设施
+    subdomain: 文件系统与Shell操作
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 文件系统与shell操作
     shared: false
     members:
-      - using-superpowers-concept-generalist-子代理调度快捷方式
-    summary_hash: sha256:58eea7e1c59b12c0a2a1251812009370b2df2d0fbeae3022a01c737057720030
-    description_hash: sha256:91757830ba7c35d55b05d5ef031113e9521a79cb1fde7f54a1ef4324945ed480
+      - using-superpowers-entity-glob工具
+    summary_hash: sha256:27d018785e45df63d88c3f4f1bbeed18a3ff4befac5f8a8e321980535c297f4e
+    description_hash: sha256:bcf9cc88e96aa7ef379ac3d1c5fa80c9515adc901b0b009a98fe52160eea1f15
     provenance: llm_inferred
-  - uuid: e7ec99a9-55b9-5d63-8677-2a814d2a9ccf
-    tag: concept
-    name: 提示模板填充
-    domain: AI代理增强与技能集成
-    subdomain: 子代理调度与集成
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 子代理调度与集成
+  - uuid: c6cf6bba-2c05-5575-86af-6a197b7173be
+    tag: entity
+    name: grep_search工具
+    domain: 对话式AI代理基础设施
+    subdomain: 文件系统与Shell操作
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 文件系统与shell操作
     shared: false
     members:
-      - using-superpowers-concept-提示模板填充
-    summary_hash: sha256:cc15bc993fd3a5c81bbb2fe27dffb112e0657a27b6631d5d59ea40f79e1bbb44
-    description_hash: sha256:c1b50ba726edb62bc33f5e4710b0df3032389f8f37fff1867d717e5aa048a117
+      - using-superpowers-entity-grep-search工具
+    summary_hash: sha256:0f20bb9eeff6204f446763771d222f5052c42a99a7c12c5087ab2a2aaee1013a
+    description_hash: sha256:703481edd083d557434f8212e303f6f9859d72b447ab095878997e49142a5a3c
     provenance: llm_inferred
-  - uuid: 9c84c7ae-3d90-583f-a925-18ac5e2222ae
+  - uuid: f0352815-9824-5bc7-bbcf-08d82f9b7713
+    tag: entity
+    name: list_directory工具
+    domain: 对话式AI代理基础设施
+    subdomain: 文件系统与Shell操作
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 文件系统与shell操作
+    shared: false
+    members:
+      - using-superpowers-entity-list-directory工具
+    summary_hash: sha256:cb10e196b31b05500b7d350ff0060bf50ba3fbcb705685bb55635f1315246d95
+    description_hash: sha256:df91af0d5e174f411ddf8b48dd5bf7cf69fbcea3e875dbee9e03d5b547fcf277
+    provenance: llm_inferred
+  - uuid: 0207d31f-739a-547b-8845-c9d0b67dfa1d
+    tag: entity
+    name: read_file工具
+    domain: 对话式AI代理基础设施
+    subdomain: 文件系统与Shell操作
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 文件系统与shell操作
+    shared: false
+    members:
+      - using-superpowers-entity-read-file工具
+    summary_hash: sha256:e6d2b3f93298ab4baf7543fcebc2b2b232e4b869076f1d800d5b7c7f5a83998c
+    description_hash: sha256:0fee78f163a6b2c76854ebc218b36e710af083d6c5fdc8879909bb7758072db9
+    provenance: llm_inferred
+  - uuid: c77570a2-180a-5c6c-8623-a529e99202fd
+    tag: entity
+    name: read_many_files工具
+    domain: 对话式AI代理基础设施
+    subdomain: 文件系统与Shell操作
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 文件系统与shell操作
+    shared: false
+    members:
+      - using-superpowers-entity-read-many-files工具
+    summary_hash: sha256:aa05437f2dff55a1469d8c0164e2753680b9e4811670f6db6e9c4cecbced8001
+    description_hash: sha256:9a1f16892bdbe190637f1e0364a63ae07ceaf7b1ceb5d951367174938b4b47df
+    provenance: llm_inferred
+  - uuid: fefead5d-b1c4-55dd-9808-39b45cad3854
+    tag: entity
+    name: write_file工具
+    domain: 对话式AI代理基础设施
+    subdomain: 文件系统与Shell操作
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 文件系统与shell操作
+    shared: false
+    members:
+      - using-superpowers-entity-write-file工具
+    summary_hash: sha256:52c45fb9a0fe8d9a93547592439f9b61ca08c5968a7af8d586d9b3df9ceb2525
+    description_hash: sha256:bb77aa804bccf3975526da83fefb8b7101744edbd6b09b260e894a5caae131d5
+    provenance: llm_inferred
+  - uuid: a7a1fa53-000a-5812-aa05-c9ee3ce7dfc2
+    tag: entity
+    name: replace工具
+    domain: 对话式AI代理基础设施
+    subdomain: 文件系统与Shell操作
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 文件系统与shell操作
+    shared: false
+    members:
+      - using-superpowers-entity-replace工具
+    summary_hash: sha256:4ec2324411b846ce6cce20bb3d3b9d144db8ed61b6ce27cf2f854286241f4e48
+    description_hash: sha256:829c87928892575f49499ee21b1ecf47a4aa869776b33c5e9ba3809ac5b7ea52
+    provenance: llm_inferred
+  - uuid: fe22b237-61aa-55a1-9722-2c9b040c38df
+    tag: entity
+    name: run_shell_command工具
+    domain: 对话式AI代理基础设施
+    subdomain: 文件系统与Shell操作
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 文件系统与shell操作
+    shared: false
+    members:
+      - using-superpowers-entity-run-shell-command工具
+    summary_hash: sha256:e3dee210d399a1ec6b37cb13107941752a50a1670441b02868ae65168a1c4d0f
+    description_hash: sha256:b4065f813bd293104f51f6dc879de4fb3291f1cbe6aa0f363cff3889f135602e
+    provenance: llm_inferred
+  - uuid: 67e3eea8-78d9-52ed-bd99-3a6b23c544a5
     tag: entity
     name: write_todos工具
-    domain: AI代理增强与技能集成
-    subdomain: 任务追踪与组织
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 任务追踪与组织
+    domain: 对话式AI代理基础设施
+    subdomain: 任务追踪
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 任务追踪
     shared: false
     members:
-      - using-superpowers-entity-write-todos-工具
-    summary_hash: sha256:2d84d94b195b6269eba7609e6c91e1023b619065cfa1f9fbe727bb876baa58d9
-    description_hash: sha256:03416738a1d143df32b97f25bb337b04d7a5543763ab46a2c6a5a98f479106fe
+      - using-superpowers-entity-write-todos工具
+    summary_hash: sha256:b90e712f4c132d1d5eb69769bff441102120d12268d09dccce82592dd1089d87
+    description_hash: sha256:c8aadb6bec920cc4653627d675190670e1561ab5da98075c5ee286c30fa88ac9
     provenance: llm_inferred
   - uuid: ede1828c-d611-5435-a7a0-a9a59984a766
     tag: concept
     name: 任务追踪器工具集
-    domain: AI代理增强与技能集成
-    subdomain: 任务追踪与组织
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 任务追踪与组织
+    domain: 对话式AI代理基础设施
+    subdomain: 任务追踪
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 任务追踪
     shared: false
     members:
       - using-superpowers-concept-任务追踪器工具集
-    summary_hash: sha256:39f81a37dccf1314de9adb0adc0662531af4a031f88a984f954632541e8e5be6
+    summary_hash: sha256:728561d38458b49e7c1ffb1c9a832dc23871d57235603d357014276264fb0900
     description_hash: sha256:5b70d8b5f536defb8511bf1572bc6a5d31ad17063f7dad4a5e8a7e8046a432cf
     provenance: llm_inferred
-  - uuid: 4c2b4149-d103-52fe-be38-5158a4951c8b
-    tag: entity
-    name: activate_skill工具
-    domain: AI代理增强与技能集成
-    subdomain: 技能映射与环境配置
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 技能映射与环境配置
-    shared: false
-    members:
-      - using-superpowers-entity-activate-skill-工具
-    summary_hash: sha256:dccf04010f8fa26dbf791cf09c426e3e19cd783087303bdc62671fa5d2eefd86
-    description_hash: sha256:1869881c45e2a045772e4a4d0c3717e82eabc730623c7246750f1e45a8404a86
-    provenance: llm_inferred
-  - uuid: 250c47c2-2df0-584a-acf5-d6ba2d09bfa1
+  - uuid: b3b0ff5f-63b6-5625-ad1e-206b3a54a944
     tag: concept
-    name: GEMINI.md加载机制
-    domain: AI代理增强与技能集成
-    subdomain: 技能映射与环境配置
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 技能映射与环境配置
+    name: 并行子代理调度
+    domain: 对话式AI代理基础设施
+    subdomain: 子代理调度
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 子代理调度
     shared: false
     members:
-      - using-superpowers-concept-gemini-md-指令文件层级加载机制
-    summary_hash: sha256:4e92cd207aa80fab0ff490bbc405e2a115ef97da3dc312740a732bdf2bf17aa8
-    description_hash: sha256:acebf6166ea199e5696ee8eeb1130e7e6f09a57b106b335852688b6d28070481
+      - using-superpowers-concept-并行子代理调度
+    summary_hash: sha256:4f82b529d9e0cb16550934e44a940add569b92e948cf14fa4db2ab3a382f7fed
+    description_hash: sha256:5773e37fd31ab5155062ad29656a7b7d2e042cf5c5ec7a0c262dbbbd89836e84
     provenance: llm_inferred
-  - uuid: c1dbed04-2787-5441-952b-5a2d7acfad54
+  - uuid: e7ec99a9-55b9-5d63-8677-2a814d2a9ccf
+    tag: concept
+    name: 提示模板填充
+    domain: 对话式AI代理基础设施
+    subdomain: 子代理调度
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 子代理调度
+    shared: false
+    members:
+      - using-superpowers-concept-提示模板填充
+    summary_hash: sha256:7b66a35c759c1c398e3922bce8a280a5e627f2b8e896620d9557a09ff99369b2
+    description_hash: sha256:80eef2186341135ff3f21f5431d84853924883e71d63008151788baf43d33a57
+    provenance: llm_inferred
+  - uuid: 82c5c068-40b0-5e5f-aade-368ede57e32d
+    tag: concept
+    name: 通用子代理快捷方式
+    domain: 对话式AI代理基础设施
+    subdomain: 子代理调度
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 子代理调度
+    shared: false
+    members:
+      - using-superpowers-concept-通用子代理快捷方式
+    summary_hash: sha256:9728e94cdd8eb7a6a6c46d0837ea1745c2134215d584d130097cb34a3ca92b63
+    description_hash: sha256:91757830ba7c35d55b05d5ef031113e9521a79cb1fde7f54a1ef4324945ed480
+    provenance: llm_inferred
+  - uuid: 33a1d445-2cda-5665-9f71-9215f5eef491
     tag: entity
-    name: read_file工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
+    name: 技能存储目录
+    domain: 对话式AI代理基础设施
+    subdomain: 技能与工作流
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 技能与工作流
     shared: false
     members:
-      - using-superpowers-entity-read-file-工具
-    summary_hash: sha256:463ec4bd72b9b364f89822cd77a9179b876fc50251ac61d3b42ff0188e711271
-    description_hash: sha256:0fee78f163a6b2c76854ebc218b36e710af083d6c5fdc8879909bb7758072db9
+      - using-superpowers-entity-技能存储目录
+    summary_hash: sha256:67fe58a51ef25060835596b6073c383ba26ab4ef9cf6ed5d976fc49cd35ff927
+    description_hash: sha256:ec9d94b00cc1225b2935dd9a38759380b635b4070bb33cce662534fb2a9f6c21
     provenance: llm_inferred
-  - uuid: 67bd180f-b4e6-54cf-8186-d805884ed13e
-    tag: entity
-    name: read_many_files工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-read-many-files-工具
-    summary_hash: sha256:9d21a85cd4a45ada873421e2c07fe32250096b585a0972dbf2feb922d17c919f
-    description_hash: sha256:9a1f16892bdbe190637f1e0364a63ae07ceaf7b1ceb5d951367174938b4b47df
-    provenance: llm_inferred
-  - uuid: 867a24d1-1f9b-5b1d-86cf-355f6a06c138
-    tag: entity
-    name: write_file工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-write-file-工具
-    summary_hash: sha256:393b067f0dd187d1fc807c2d57bf250f09392eaecdeb2fd70423e5f220c6bb5c
-    description_hash: sha256:bb77aa804bccf3975526da83fefb8b7101744edbd6b09b260e894a5caae131d5
-    provenance: llm_inferred
-  - uuid: 614130f4-7e57-53da-90fa-ce6e39d34545
-    tag: entity
-    name: replace工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-replace-工具
-    summary_hash: sha256:010a54f3d2198b514e93e8c9f5d05a52ae5ee323fff4ca1cea956d4edc36ce8d
-    description_hash: sha256:829c87928892575f49499ee21b1ecf47a4aa869776b33c5e9ba3809ac5b7ea52
-    provenance: llm_inferred
-  - uuid: 52f1cd5b-3b10-5b3b-ad8d-276ed301ab2d
-    tag: entity
-    name: run_shell_command工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-run-shell-command-工具
-    summary_hash: sha256:bec873cca3ae62930055bc7859d8f70667ea15d8f1e8e6631e4b75364708d619
-    description_hash: sha256:b4065f813bd293104f51f6dc879de4fb3291f1cbe6aa0f363cff3889f135602e
-    provenance: llm_inferred
-  - uuid: ce7af0d2-8ac2-5647-ac5e-13c9a5036bdf
-    tag: entity
-    name: grep_search工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-grep-search-工具
-    summary_hash: sha256:08a51a188bc73fb45076ee73566096c39e9fd892a7dd9fe9a347a2af48571840
-    description_hash: sha256:703481edd083d557434f8212e303f6f9859d72b447ab095878997e49142a5a3c
-    provenance: llm_inferred
-  - uuid: 7a1473fb-d949-5360-92a0-0c12d4b0cb3a
-    tag: entity
-    name: glob工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-glob-工具
-    summary_hash: sha256:ad695675cdd7641781317e19627d6cc03f287c9182f97569fbf6cf71ad683ff9
-    description_hash: sha256:bcf9cc88e96aa7ef379ac3d1c5fa80c9515adc901b0b009a98fe52160eea1f15
-    provenance: llm_inferred
-  - uuid: fbf32595-c56e-5db3-940d-1f26d1072778
-    tag: entity
-    name: list_directory工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-list-directory-工具
-    summary_hash: sha256:11c6c8a01e0384da34db95049b6f9f5a6e8f2190085788ab34f0089d55e29da9
-    description_hash: sha256:df91af0d5e174f411ddf8b48dd5bf7cf69fbcea3e875dbee9e03d5b547fcf277
-    provenance: llm_inferred
-  - uuid: 3596b449-5341-5359-b8f9-2cac0240c618
-    tag: entity
-    name: web_fetch工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-web-fetch-工具
-    summary_hash: sha256:9791280e2a6affc13505453d1b6e9c9eb0be5e4064bcc59565265a5187a8c59b
-    description_hash: sha256:2365aff5eb62d4f8c0b18b92d18aff82ff6d0b57a11cb8d4b4a7b29fbe0de881
-    provenance: llm_inferred
-  - uuid: 04565458-4937-5de2-8853-85137b4bafe7
+  - uuid: 1dd03498-9603-5b25-9b0f-0b9f5700eaeb
     tag: entity
     name: google_web_search工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
+    domain: 对话式AI代理基础设施
+    subdomain: 外部信息访问
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 外部信息访问
     shared: false
     members:
-      - using-superpowers-entity-google-web-search-工具
-    summary_hash: sha256:725307cf3ab55b362a61e880f3c0ed83ad86f356245125b43956a7f15cb9d17c
+      - using-superpowers-entity-google-web-search工具
+    summary_hash: sha256:ce3cb08260d2a796746ce58ef0debeadd9646200ef0a399a4fec0ae6f5ca48ff
     description_hash: sha256:b0da6e3b8c0124ab5368cd95ac5dad4cda9635c0b270c713ddb24051d38fccf4
     provenance: llm_inferred
-  - uuid: 01c61314-6c94-5526-80d2-785fa3052049
+  - uuid: 9737423a-34cf-5e61-818d-a5204ab35e10
     tag: entity
-    name: save_memory工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
+    name: web_fetch工具
+    domain: 对话式AI代理基础设施
+    subdomain: 外部信息访问
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 外部信息访问
     shared: false
     members:
-      - using-superpowers-entity-save-memory-工具
-    summary_hash: sha256:03d58a5f335c6e8449bb5805fea3ddb70aa1076af5aba0cf98da55bd5fcd44da
-    description_hash: sha256:5bf69a4ede0e399395ea8ad63377522a25d667cd2d4f68a5af045fafae5c9323
+      - using-superpowers-entity-web-fetch工具
+    summary_hash: sha256:24cada284a65f81ec1c7d297eb7a5a475fb79c645a342c7ec15b359e4d89bdda
+    description_hash: sha256:2365aff5eb62d4f8c0b18b92d18aff82ff6d0b57a11cb8d4b4a7b29fbe0de881
     provenance: llm_inferred
-  - uuid: 84bb7002-6d4b-5469-bd09-18e8d09320bb
+  - uuid: 73460a5e-e7fe-519c-8b4e-346ef71257be
     tag: entity
     name: get_internal_docs工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
+    domain: 对话式AI代理基础设施
+    subdomain: 外部信息访问
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 外部信息访问
     shared: false
     members:
-      - using-superpowers-entity-get-internal-docs-工具
-    summary_hash: sha256:8c3b9f878970f8b17a9d19e503006cf3bfeca8394190d2887ebf1e6feeb65457
+      - using-superpowers-entity-get-internal-docs工具
+    summary_hash: sha256:8832968ea5d76322a1eb90a03b59833f639e12302a02b5f9068a73c7919748a5
     description_hash: sha256:743a60bba46568fbcd92407b095cd220a2c17514a55c56c5530cdbea1cd8f8b2
     provenance: llm_inferred
-  - uuid: 4c753169-fe1b-5e8e-925f-938b006ae1b3
-    tag: entity
-    name: ask_user工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-ask-user-工具
-    summary_hash: sha256:a5e42c186b1169473fd0d94c4156f5384ccf04c55cd47b95abe7f7f80317d290
-    description_hash: sha256:e4f13c12c2fc5a2d6943e62fe303af0f46c8bf785abb910c988020af0cf7d915
-    provenance: llm_inferred
-  - uuid: e344c64e-63b1-5d7e-9bf8-a5f9feb5daf5
-    tag: entity
-    name: enter_plan_mode工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-enter-plan-mode-工具
-    summary_hash: sha256:b32b4d35deeadf6503ee8f2691e8e716733e8b021f371ce4014e71c7ecd850de
-    description_hash: sha256:24bccc7341b46c6897716c319cb1ba11218a604348c1f2f7ec5dd4d93dd3428e
-    provenance: llm_inferred
-  - uuid: 9000b877-f295-5fba-abc5-335da0178a13
-    tag: entity
-    name: exit_plan_mode工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-exit-plan-mode-工具
-    summary_hash: sha256:beab8a3d62d659110c619a5f78f59d7f69b9095ce92667610461f3055bd50f26
-    description_hash: sha256:e624b1d00dcfb9aa522576f5f8bb59127519494d003b49bfee834a314bee56ed
-    provenance: llm_inferred
-  - uuid: 9e2a951b-6eb4-5f09-aa97-4dfe33dfa69b
-    tag: entity
-    name: update_topic工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-update-topic-工具
-    summary_hash: sha256:a826e9f3ae9cfbaafefc50208cfe2008a5f8c717e15206a1fc00d0fe2632474b
-    description_hash: sha256:d7b4cb5cec06f53dfdcbbb6cb04f6108d00843b42d7009942d2dba646e85225c
-    provenance: llm_inferred
-  - uuid: 73bbe028-0bc1-52de-88c0-96495a78278e
-    tag: entity
-    name: complete_task工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-complete-task-工具
-    summary_hash: sha256:ff3d07f3f011ff8ecafb5b26f034d66480a977a2c99c7bdc8c4fc9b9070fca15
-    description_hash: sha256:70473e677a01d613511924183f0197cebd6981ba645413d7579caa28319b1826
-    provenance: llm_inferred
-  - uuid: fd959bdd-45ad-5a00-9dcb-4815851da28f
-    tag: entity
-    name: read_mcp_resource工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-read-mcp-resource-工具
-    summary_hash: sha256:06289c508aa97adfb912bc415443a03f27cbb7054fd7d7401678d84eafb08ee8
-    description_hash: sha256:527698bd4284f2b898c4c59da534956bc9a82f2fc5caeb539312e333819ec78a
-    provenance: llm_inferred
-  - uuid: f1015053-61eb-522b-b40f-bdd94f08218c
+  - uuid: 9c176b80-b9b7-52c9-8b27-5dc96dbd76de
     tag: entity
     name: list_mcp_resources工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
+    domain: 对话式AI代理基础设施
+    subdomain: 外部信息访问
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 外部信息访问
     shared: false
     members:
-      - using-superpowers-entity-list-mcp-resources-工具
-    summary_hash: sha256:64ff9789f117bd5ad4dae55f03854e75044b2a11003f5e964b6519a3b1d2cedc
+      - using-superpowers-entity-list-mcp-resources工具
+    summary_hash: sha256:e818522b38cc6b63a988694ca7bebc989ac3aa2920f42a4cccf058b7e7f0ed86
     description_hash: sha256:61f2b1d0534a7538a865963a2a725ac771a45268295ef8e36190f7446e74bc42
+    provenance: llm_inferred
+  - uuid: 46134c70-f37f-54bb-b34f-8742a65b610d
+    tag: entity
+    name: read_mcp_resource工具
+    domain: 对话式AI代理基础设施
+    subdomain: 外部信息访问
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 外部信息访问
+    shared: false
+    members:
+      - using-superpowers-entity-read-mcp-resource工具
+    summary_hash: sha256:120ab03abcebfb37db48ab779e2fbc74d7f41263a122118f2355eeda5737c828
+    description_hash: sha256:527698bd4284f2b898c4c59da534956bc9a82f2fc5caeb539312e333819ec78a
     provenance: llm_inferred

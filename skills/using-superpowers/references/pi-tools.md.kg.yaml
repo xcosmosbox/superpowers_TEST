@@ -1,63 +1,58 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/pi-tools.md
-doc_hash: sha256:cf301806e5cb0e5cae5e2c5a1c930fa64ff0e93af182b6acc1d4d9ad7dd4148c
-generated_at: "2026-07-29T08:41:54Z"
+doc_hash: sha256:0e0c6ff890ba21ab956f85a9687ada56ced39ed42e741cc4ea6434272e1b6722
+generated_at: "2026-07-29T09:09:07Z"
 nodes:
-  - uuid: 0c3512bb-01a0-554a-90c2-82ac75464088
-    tag: entity
-    name: 子代理调度工具
-    domain: AI代理增强与技能集成
-    subdomain: 子代理调度与集成
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 子代理调度与集成
-    shared: true
-    members:
-      - using-superpowers-entity-invoke-agent-工具
-      - using-superpowers-entity-invoke-subagent工具
-      - using-superpowers-entity-subagent-tool
-    summary_hash: sha256:c6a7e361a1a13cdd9a4f98984a7041aa1bbdb9ba3ca864ae1c699e36878e5829
-    description_hash: sha256:e52964628ea215efdde163e026bcf7e7fc5cd4cdde1b00846107b895920a59b4
-    provenance: llm_inferred
-  - uuid: 6f792a20-2246-5d35-b7fa-78f97a4bf990
-    tag: entity
-    name: pi-subagents包
-    domain: AI代理增强与技能集成
-    subdomain: 子代理调度与集成
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 子代理调度与集成
-    shared: false
-    members:
-      - using-superpowers-entity-pi-subagents-package
-    summary_hash: sha256:957e100c49649b1402afb1807af2f61c0551bfc9b99b7203d6fd0d245e6ac98f
-    description_hash: sha256:ae1f4fd1ee867b3b4221a4f36915bc0d4c402915b4e098b22740f58f044b4a3f
-    provenance: llm_inferred
-  - uuid: 3935e6c5-9a0f-5c14-aebe-17da8c12f0cb
-    tag: concept
-    name: 动作映射规则
-    domain: AI代理增强与技能集成
-    subdomain: 子代理调度与集成
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 子代理调度与集成
-    shared: true
-    members:
-      - using-superpowers-concept-subagent-action-mapping-on-pi
-      - using-superpowers-concept-task-tracking-action-mapping-on-pi
-      - using-superpowers-concept-技能到cli工具的映射规则
-    summary_hash: sha256:b8f17b267063aae297a057a96857f104725708d97d23aad50bb1bfba3ba9c438
-    description_hash: sha256:8b5ea33b9348a515f0746a045e278169d0242d66f61be82beac943b33353e2eb
-    provenance: llm_inferred
-  - uuid: 614ff5f4-8c27-53a9-91ff-4dbeab5b1b34
+  - uuid: 4b86abdd-9f88-53ee-aa89-2ac7a72074cf
     tag: concept
     name: 工具可用性说明
-    domain: AI代理增强与技能集成
-    subdomain: 子代理调度与集成
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 子代理调度与集成
+    domain: 对话式AI代理基础设施
+    subdomain: 对话会话管理
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 对话会话管理
     shared: false
     members:
-      - using-superpowers-concept-subagent-tool-availability-and-fallback
-      - using-superpowers-concept-task-list-tool-availability-and-alternatives
-    summary_hash: sha256:f3c07c761d034f62a35291e30a57ae39cea024fe1f5b92ab205f1f0119fe12d0
+      - using-superpowers-concept-工具可用性说明
+    summary_hash: sha256:5af11bc6823b950e9c101c7ebf9c2f771edb45216b69c7cafe7af80a6a05d66e
     description_hash: sha256:a63a90ee77cd0f654991b9f4866b10e8bd021ed6919586d9add1364088322111
+    provenance: llm_inferred
+  - uuid: 418c488a-e966-5a78-a294-e68410f08675
+    tag: entity
+    name: pi-subagents包
+    domain: 对话式AI代理基础设施
+    subdomain: 子代理调度
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 子代理调度
+    shared: false
+    members:
+      - using-superpowers-entity-pi-subagents包
+    summary_hash: sha256:097917264bb65dc38897b6e7b60e8de683b3eef1ea580906af50e7c556658ddb
+    description_hash: sha256:ae1f4fd1ee867b3b4221a4f36915bc0d4c402915b4e098b22740f58f044b4a3f
+    provenance: llm_inferred
+  - uuid: 28b86d2b-d654-5c72-9e7a-34a672c47b4f
+    tag: concept
+    name: 子代理调度工具
+    domain: 对话式AI代理基础设施
+    subdomain: 子代理调度
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 子代理调度
+    shared: false
+    members:
+      - using-superpowers-concept-子代理调度工具
+    summary_hash: sha256:578c164512cf138a2dc3c2a9ad4a2f7d9ec748f59c9f477de2390d565f59cbf1
+    description_hash: sha256:6e093afd868e18c1deeaaba585475b34389a2e53eb3720eb86711fa44e80c05d
+    provenance: llm_inferred
+  - uuid: 14956b49-0826-5456-a38a-1157d99a851c
+    tag: concept
+    name: 动作映射规则
+    domain: 对话式AI代理基础设施
+    subdomain: 子代理调度
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 子代理调度
+    shared: false
+    members:
+      - using-superpowers-concept-动作映射规则
+    summary_hash: sha256:ba8531940dfbc336726c008129d88bb0dcf08f80a57850f48627b5cb34cf83e0
+    description_hash: sha256:beb6068e6b0775b3a53ea07d9a62047c4266cc716065ddd61c9cae15a45a554e
     provenance: llm_inferred

@@ -1,62 +1,32 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/antigravity-tools.md
-doc_hash: sha256:9dd2360416462bce3874bc5a5728b544fadb001a1f1a41259741b951f629dddb
-generated_at: "2026-07-29T08:41:54Z"
+doc_hash: sha256:5ed1a4000367ec32ec0c2a07ed595e1b9dec31d50fde9da7ec3c0dcffceea2da
+generated_at: "2026-07-29T09:09:07Z"
 nodes:
-  - uuid: 0c3512bb-01a0-554a-90c2-82ac75464088
+  - uuid: 44081383-217a-5148-b092-1a1ff3e222ed
     tag: entity
-    name: 子代理调度工具
-    domain: AI代理增强与技能集成
-    subdomain: 子代理调度与集成
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 子代理调度与集成
-    shared: true
+    name: manage_task工具
+    domain: 对话式AI代理基础设施
+    subdomain: 任务追踪
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 任务追踪
+    shared: false
     members:
-      - using-superpowers-entity-invoke-agent-工具
-      - using-superpowers-entity-invoke-subagent工具
-      - using-superpowers-entity-subagent-tool
-    summary_hash: sha256:c6a7e361a1a13cdd9a4f98984a7041aa1bbdb9ba3ca864ae1c699e36878e5829
-    description_hash: sha256:e52964628ea215efdde163e026bcf7e7fc5cd4cdde1b00846107b895920a59b4
-    provenance: llm_inferred
-  - uuid: 3935e6c5-9a0f-5c14-aebe-17da8c12f0cb
-    tag: concept
-    name: 动作映射规则
-    domain: AI代理增强与技能集成
-    subdomain: 子代理调度与集成
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 子代理调度与集成
-    shared: true
-    members:
-      - using-superpowers-concept-subagent-action-mapping-on-pi
-      - using-superpowers-concept-task-tracking-action-mapping-on-pi
-      - using-superpowers-concept-技能到cli工具的映射规则
-    summary_hash: sha256:b8f17b267063aae297a057a96857f104725708d97d23aad50bb1bfba3ba9c438
-    description_hash: sha256:8b5ea33b9348a515f0746a045e278169d0242d66f61be82beac943b33353e2eb
+      - using-superpowers-entity-manage-task工具
+    summary_hash: sha256:0782e19748c7898be62e35088868572d1a946b41a4563a186def603dfced2b10
+    description_hash: sha256:653363fcf72574960cd77ee8991e13612312df5a921ffda4f93ac905572feb29
     provenance: llm_inferred
   - uuid: d68cbb4c-e24d-5f68-952c-95d0e579e112
     tag: concept
     name: 任务工件
-    domain: AI代理增强与技能集成
-    subdomain: 任务追踪与组织
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 任务追踪与组织
+    domain: 对话式AI代理基础设施
+    subdomain: 任务追踪
+    domain_slug: 对话式ai代理基础设施
+    subdomain_slug: 任务追踪
     shared: false
     members:
       - using-superpowers-concept-任务工件
-    summary_hash: sha256:22748a3d4fcc33627830608bb4c7b899f74d7fced6b1e11bdb387257869b09e2
+    summary_hash: sha256:14cffb24d3731e0c73dba45912062cbf1bcd879a529bf07637e5b2703870b9bc
     description_hash: sha256:e78581352edf65d70c9cad8953c1c03fbf2abf4efecd69c1eab5cb474f6d97d6
-    provenance: llm_inferred
-  - uuid: 44081383-217a-5148-b092-1a1ff3e222ed
-    tag: entity
-    name: manage_task工具
-    domain: AI代理增强与技能集成
-    subdomain: 通用工具集
-    domain_slug: ai代理增强与技能集成
-    subdomain_slug: 通用工具集
-    shared: false
-    members:
-      - using-superpowers-entity-manage-task工具
-    summary_hash: sha256:487316178ee6cf3fe0e95edc546ba573b2745efbf56e273c4a229fb7f4b6757b
-    description_hash: sha256:5810930545160cdd46964dd15c9a66b4daf3ce6b1eec87c62aa3cbfa1a8b0998
     provenance: llm_inferred
