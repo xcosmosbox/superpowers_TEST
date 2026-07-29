@@ -1,32 +1,32 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/antigravity-tools.md
-doc_hash: sha256:5ed1a4000367ec32ec0c2a07ed595e1b9dec31d50fde9da7ec3c0dcffceea2da
-generated_at: "2026-07-29T09:09:07Z"
+doc_hash: sha256:01d203e8561766d988386d43f4c9250b8e1db0eff0066fe5f08933514a927b51
+generated_at: "2026-07-29T10:13:07Z"
 nodes:
-  - uuid: 44081383-217a-5148-b092-1a1ff3e222ed
-    tag: entity
-    name: manage_task工具
-    domain: 对话式AI代理基础设施
-    subdomain: 任务追踪
-    domain_slug: 对话式ai代理基础设施
-    subdomain_slug: 任务追踪
-    shared: false
-    members:
-      - using-superpowers-entity-manage-task工具
-    summary_hash: sha256:0782e19748c7898be62e35088868572d1a946b41a4563a186def603dfced2b10
-    description_hash: sha256:653363fcf72574960cd77ee8991e13612312df5a921ffda4f93ac905572feb29
-    provenance: llm_inferred
   - uuid: d68cbb4c-e24d-5f68-952c-95d0e579e112
     tag: concept
     name: 任务工件
-    domain: 对话式AI代理基础设施
+    domain: 任务与状态管理
     subdomain: 任务追踪
-    domain_slug: 对话式ai代理基础设施
+    domain_slug: 任务与状态管理
     subdomain_slug: 任务追踪
     shared: false
     members:
       - using-superpowers-concept-任务工件
     summary_hash: sha256:14cffb24d3731e0c73dba45912062cbf1bcd879a529bf07637e5b2703870b9bc
     description_hash: sha256:e78581352edf65d70c9cad8953c1c03fbf2abf4efecd69c1eab5cb474f6d97d6
+    provenance: llm_inferred
+  - uuid: 44081383-217a-5148-b092-1a1ff3e222ed
+    tag: entity
+    name: 后台进程管理工具
+    domain: 子代理编排
+    subdomain: 子代理管理
+    domain_slug: 子代理编排
+    subdomain_slug: 子代理管理
+    shared: false
+    members:
+      - using-superpowers-entity-manage-task工具
+    summary_hash: sha256:0782e19748c7898be62e35088868572d1a946b41a4563a186def603dfced2b10
+    description_hash: sha256:ea14e9280771ae1d9b65efea4813419657ba7ceeb62e9479bb9ecde53affa1cb
     provenance: llm_inferred

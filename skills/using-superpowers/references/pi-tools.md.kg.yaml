@@ -1,16 +1,16 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/pi-tools.md
-doc_hash: sha256:0e0c6ff890ba21ab956f85a9687ada56ced39ed42e741cc4ea6434272e1b6722
-generated_at: "2026-07-29T09:09:07Z"
+doc_hash: sha256:73a42441203881b4eebe48db93354fd47d90190b4d09c1a207a4f976fdd0b8a1
+generated_at: "2026-07-29T10:13:07Z"
 nodes:
   - uuid: 4b86abdd-9f88-53ee-aa89-2ac7a72074cf
     tag: concept
     name: 工具可用性说明
-    domain: 对话式AI代理基础设施
-    subdomain: 对话会话管理
-    domain_slug: 对话式ai代理基础设施
-    subdomain_slug: 对话会话管理
+    domain: 基础操作能力
+    subdomain: Shell与网络操作
+    domain_slug: 基础操作能力
+    subdomain_slug: shell与网络操作
     shared: false
     members:
       - using-superpowers-concept-工具可用性说明
@@ -20,36 +20,36 @@ nodes:
   - uuid: 418c488a-e966-5a78-a294-e68410f08675
     tag: entity
     name: pi-subagents包
-    domain: 对话式AI代理基础设施
-    subdomain: 子代理调度
-    domain_slug: 对话式ai代理基础设施
-    subdomain_slug: 子代理调度
+    domain: 子代理编排
+    subdomain: 子代理管理
+    domain_slug: 子代理编排
+    subdomain_slug: 子代理管理
     shared: false
     members:
       - using-superpowers-entity-pi-subagents包
     summary_hash: sha256:097917264bb65dc38897b6e7b60e8de683b3eef1ea580906af50e7c556658ddb
-    description_hash: sha256:ae1f4fd1ee867b3b4221a4f36915bc0d4c402915b4e098b22740f58f044b4a3f
+    description_hash: sha256:b1886d937ba87558162326f233fae5535959f2dfc76daab96bc025709d4272e2
     provenance: llm_inferred
   - uuid: 28b86d2b-d654-5c72-9e7a-34a672c47b4f
     tag: concept
-    name: 子代理调度工具
-    domain: 对话式AI代理基础设施
-    subdomain: 子代理调度
-    domain_slug: 对话式ai代理基础设施
-    subdomain_slug: 子代理调度
+    name: 子代理调度工具概念
+    domain: 子代理编排
+    subdomain: 子代理管理
+    domain_slug: 子代理编排
+    subdomain_slug: 子代理管理
     shared: false
     members:
       - using-superpowers-concept-子代理调度工具
-    summary_hash: sha256:578c164512cf138a2dc3c2a9ad4a2f7d9ec748f59c9f477de2390d565f59cbf1
-    description_hash: sha256:6e093afd868e18c1deeaaba585475b34389a2e53eb3720eb86711fa44e80c05d
+    summary_hash: sha256:2201492c9c40f3c51d745a245198db5bfe0cb85c140cd8fa3e4b5de763f50029
+    description_hash: sha256:84dc5bf28b2101f3bf1372d77b81c51fa81d32e6e6c7d31aada936d96477f8ac
     provenance: llm_inferred
   - uuid: 14956b49-0826-5456-a38a-1157d99a851c
     tag: concept
     name: 动作映射规则
-    domain: 对话式AI代理基础设施
-    subdomain: 子代理调度
-    domain_slug: 对话式ai代理基础设施
-    subdomain_slug: 子代理调度
+    domain: 技能与工作流
+    subdomain: 技能管理
+    domain_slug: 技能与工作流
+    subdomain_slug: 技能管理
     shared: false
     members:
       - using-superpowers-concept-动作映射规则
