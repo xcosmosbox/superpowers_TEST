@@ -1,0 +1,58 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: skills/using-superpowers/references/codex-tools.md
+doc_hash: sha256:1ae62f3bfa9b1f75f626bf89a769df3aeecf4f345f93cb2f4fef88e53c7f5e33
+generated_at: "2026-07-29T08:41:54Z"
+nodes:
+  - uuid: dc70fe9e-464e-50f5-9ca5-ab0f9e6a61db
+    tag: concept
+    name: 子代理调度规则
+    domain: AI代理增强与技能集成
+    subdomain: 子代理调度与集成
+    domain_slug: ai代理增强与技能集成
+    subdomain_slug: 子代理调度与集成
+    shared: false
+    members:
+      - using-superpowers-concept-子代理调度规则
+    summary_hash: sha256:41c58d81a1af6a9223697d6f7dbba0b8ed68d799292c8ad2eb2bb505225488bf
+    description_hash: sha256:ef41a9b7eecaa42e82ca6d6022dcd00f06f6b283095fa50a2fd2346827605925
+    provenance: llm_inferred
+  - uuid: 13221553-c891-5317-8b3c-b245114bafec
+    tag: entity
+    name: multi_agent配置
+    domain: AI代理增强与技能集成
+    subdomain: 技能映射与环境配置
+    domain_slug: ai代理增强与技能集成
+    subdomain_slug: 技能映射与环境配置
+    shared: false
+    members:
+      - using-superpowers-entity-multi-agent-配置
+    summary_hash: sha256:f3e59960c491dcc4e3020c9ea287082cc8b4cd90208f62b0599534d87df1211f
+    description_hash: sha256:94bcea91658df63757f0a42276951bf206000fb66266c9a815cd597940e5ecde
+    provenance: llm_inferred
+  - uuid: 1fa7625c-0020-50e0-b311-9881959749b0
+    tag: concept
+    name: 技能环境检测方法
+    domain: AI代理增强与技能集成
+    subdomain: 技能映射与环境配置
+    domain_slug: ai代理增强与技能集成
+    subdomain_slug: 技能映射与环境配置
+    shared: false
+    members:
+      - using-superpowers-concept-技能环境检测方法
+    summary_hash: sha256:966f6d53e300f1547efa896f1fe2d0555388c40639c3e8de3e0fa260e90f9549
+    description_hash: sha256:72801ed7d5c97ae69132635b98aa2ef9ec3e0f0e6cd505d71ba699f832569957
+    provenance: llm_inferred
+  - uuid: da4ba5de-4657-5293-963b-ee7b0155fd19
+    tag: concept
+    name: Codex应用完成工作流
+    domain: AI代理增强与技能集成
+    subdomain: 技能映射与环境配置
+    domain_slug: ai代理增强与技能集成
+    subdomain_slug: 技能映射与环境配置
+    shared: false
+    members:
+      - using-superpowers-concept-codex-应用完成工作流
+    summary_hash: sha256:4c17976d840b49966d97a5143215591dd6ffda8f62c170d8cedf3e4ba7d92395
+    description_hash: sha256:2e6e18313687cfaab91c84d1b1ec6270fee5239ef0b23c554a70c7403c4d8ccf
+    provenance: llm_inferred

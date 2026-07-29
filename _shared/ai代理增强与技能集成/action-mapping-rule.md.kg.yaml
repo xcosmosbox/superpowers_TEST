@@ -1,0 +1,21 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: _shared/ai代理增强与技能集成/action-mapping-rule.md
+doc_hash: sha256:853ad1b6410cedcee375f524b6fec54eaa7e3a6fab70fdb31fd29ca8ed32da8a
+generated_at: "2026-07-29T08:41:54Z"
+nodes:
+  - uuid: 3935e6c5-9a0f-5c14-aebe-17da8c12f0cb
+    tag: concept
+    name: 动作映射规则
+    domain: AI代理增强与技能集成
+    subdomain: 子代理调度与集成
+    domain_slug: ai代理增强与技能集成
+    subdomain_slug: 子代理调度与集成
+    shared: true
+    members:
+      - using-superpowers-concept-subagent-action-mapping-on-pi
+      - using-superpowers-concept-task-tracking-action-mapping-on-pi
+      - using-superpowers-concept-技能到cli工具的映射规则
+    summary_hash: sha256:b8f17b267063aae297a057a96857f104725708d97d23aad50bb1bfba3ba9c438
+    description_hash: sha256:8b5ea33b9348a515f0746a045e278169d0242d66f61be82beac943b33353e2eb
+    provenance: llm_inferred
