@@ -33,14 +33,4 @@
 子代理调度规则用于管理子代理审查与实现生命周期。在 subagent-driven-development 方法中，审查子代理完成审查并返回结果后应立即关闭。实现子代理应保持打开状态，直到其对应任务的审查通过；若审查未通过，修复循环会恢复该实现子代理继续修改。如果运行环境限制导致无法向已生成的代理发送后续消息（即无法恢复现有代理），则应将每个修复轮次作为全新的实现子代理进行调度，并提供简要说明、报告文件以及发现的问题，以维持开发流程。
 <!-- /kg:uuid=dc70fe9e-464e-50f5-9ca5-ab0f9e6a61db -->
 
-<!-- kg:uuid=1fa7625c-0020-50e0-b311-9881959749b0 tag=concept shared=false readonly-meta -->
-## 技能环境检测方法
-- **归属**：技能与工作流 / 技能管理
-
-**摘要**（可编辑）
-使用git命令检测分支状态以决策工作流。
-
-**详述**（可编辑）
-在创建 worktree 或完成分支等操作前，技能应使用只读 git 命令检测当前环境。具体步骤：运行 GIT_DIR=$(cd "$(git rev-parse --git-dir)" 2>/dev/null && pwd -P)、GIT_COMMON=$(cd "$(git rev-parse --git-common-dir)" 2>/dev/null && pwd -P) 以及 BRANCH=$(git branch --show-current)。根据结果判断：若 GIT_DIR 与 GIT_COMMON 不同，说明已处于链接工作树中，应跳过创建操作；若 BRANCH 为空，则处于分离头状态，无法从沙箱中执行分支、推送或 PR 操作。详细使用可参考 using-git-worktrees 的 Step 0 和 finishing-a-development-branch 的 Step 1。
-<!-- /kg:uuid=1fa7625c-0020-50e0-b311-9881959749b0 -->
 
