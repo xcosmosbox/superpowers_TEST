@@ -1,58 +1,45 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/codex-tools.md
-doc_hash: sha256:04bf8030545a8707629edd80b8fcedd0519206da628a39df572922c2ca1c869e
-generated_at: "2026-07-29T10:13:07Z"
+doc_hash: sha256:df3664da928a064d8719d0fda477fb25596a9d0594212cf8a734608f26bd9b75
+generated_at: "2026-07-29T14:40:35Z"
 nodes:
-  - uuid: 90d2f502-878c-5b88-b781-b822c7e899c6
-    tag: entity
-    name: 多代理配置
-    domain: 子代理编排
-    subdomain: 子代理管理
-    domain_slug: 子代理编排
-    subdomain_slug: 子代理管理
-    shared: false
-    members:
-      - using-superpowers-entity-multi-agent配置
-    summary_hash: sha256:e63efa5a93eef071247c7dbb58c300d2cba064761a502158c9a37aeca0f795fd
-    description_hash: sha256:6d7455fc3f2797b48b8dc2d2704b457a3a8124abca9185557f2efe63e4eca148
-    provenance: llm_inferred
   - uuid: dc70fe9e-464e-50f5-9ca5-ab0f9e6a61db
     tag: concept
     name: 子代理调度规则
-    domain: 子代理编排
-    subdomain: 子代理管理
-    domain_slug: 子代理编排
-    subdomain_slug: 子代理管理
+    domain: 代理协作与任务管理
+    subdomain: 子代理调度
+    domain_slug: 代理协作与任务管理
+    subdomain_slug: 子代理调度
     shared: false
     members:
       - using-superpowers-concept-子代理调度规则
     summary_hash: sha256:b465e673c99e08e952e591c795870ef922bec06b6e698194b5de12658940bb1d
-    description_hash: sha256:064717e903e5e556287414ec5d64bbff3ba4257183fa6a73c271cccacdda3d7a
-    provenance: llm_inferred
-  - uuid: 1fa7625c-0020-50e0-b311-9881959749b0
-    tag: concept
-    name: 技能环境检测方法
-    domain: 技能与工作流
-    subdomain: 技能管理
-    domain_slug: 技能与工作流
-    subdomain_slug: 技能管理
-    shared: false
-    members:
-      - using-superpowers-concept-技能环境检测方法
-    summary_hash: sha256:3175f7f802a672d4be5e56610a2986c49ef01757f58330affa93db3cc0f4c70e
-    description_hash: sha256:0cd125af3779ff49e7b3febcff09d9732554779b3ec239d46202186a00b045fb
+    description_hash: sha256:19313eb6702297fbccef92d8e6e8966a5fe7d7702dbc9a44dc55086dc08ed480
     provenance: llm_inferred
   - uuid: 7c69f017-552a-5625-a62b-71131f53050f
     tag: concept
     name: Codex应用完成工作流
-    domain: 技能与工作流
-    subdomain: Codex应用完成
-    domain_slug: 技能与工作流
-    subdomain_slug: codex应用完成
+    domain: 代理协作与任务管理
+    subdomain: 计划与工作流
+    domain_slug: 代理协作与任务管理
+    subdomain_slug: 计划与工作流
     shared: false
     members:
       - using-superpowers-concept-codex应用完成工作流
     summary_hash: sha256:847606f743e248283e9ead4117eb9f9d89f908f3ee1961441fdeda4bf190b6ab
     description_hash: sha256:db129875912fcd5687f7259c617cbb848245e11f41c9c02b8d4a5a0cb7ff8cec
+    provenance: llm_inferred
+  - uuid: 58145a4f-928b-5328-8140-25a215dd7682
+    tag: entity
+    name: 多代理配置
+    domain: 技能与配置管理
+    subdomain: 配置与元数据
+    domain_slug: 技能与配置管理
+    subdomain_slug: 配置与元数据
+    shared: false
+    members:
+      - using-superpowers-entity-多代理配置
+    summary_hash: sha256:e63efa5a93eef071247c7dbb58c300d2cba064761a502158c9a37aeca0f795fd
+    description_hash: sha256:6d7455fc3f2797b48b8dc2d2704b457a3a8124abca9185557f2efe63e4eca148
     provenance: llm_inferred

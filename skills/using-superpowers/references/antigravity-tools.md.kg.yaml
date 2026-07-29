@@ -1,15 +1,15 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/antigravity-tools.md
-doc_hash: sha256:01d203e8561766d988386d43f4c9250b8e1db0eff0066fe5f08933514a927b51
-generated_at: "2026-07-29T10:13:07Z"
+doc_hash: sha256:0c181f2f25ca912a63f7411b1e2ffac193ba1500f112d8cbc510c5b252e7c43e
+generated_at: "2026-07-29T14:40:35Z"
 nodes:
   - uuid: d68cbb4c-e24d-5f68-952c-95d0e579e112
     tag: concept
     name: 任务工件
-    domain: 任务与状态管理
+    domain: 代理协作与任务管理
     subdomain: 任务追踪
-    domain_slug: 任务与状态管理
+    domain_slug: 代理协作与任务管理
     subdomain_slug: 任务追踪
     shared: false
     members:
@@ -17,16 +17,16 @@ nodes:
     summary_hash: sha256:14cffb24d3731e0c73dba45912062cbf1bcd879a529bf07637e5b2703870b9bc
     description_hash: sha256:e78581352edf65d70c9cad8953c1c03fbf2abf4efecd69c1eab5cb474f6d97d6
     provenance: llm_inferred
-  - uuid: 44081383-217a-5148-b092-1a1ff3e222ed
+  - uuid: 56fd07e7-6a71-5351-9c99-d7c42e00d419
     tag: entity
     name: 后台进程管理工具
-    domain: 子代理编排
-    subdomain: 子代理管理
-    domain_slug: 子代理编排
-    subdomain_slug: 子代理管理
+    domain: 核心工具集
+    subdomain: 执行与环境交互
+    domain_slug: 核心工具集
+    subdomain_slug: 执行与环境交互
     shared: false
     members:
-      - using-superpowers-entity-manage-task工具
+      - using-superpowers-entity-后台进程管理工具
     summary_hash: sha256:0782e19748c7898be62e35088868572d1a946b41a4563a186def603dfced2b10
     description_hash: sha256:ea14e9280771ae1d9b65efea4813419657ba7ceeb62e9479bb9ecde53affa1cb
     provenance: llm_inferred
