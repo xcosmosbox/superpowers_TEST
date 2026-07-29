@@ -1,7 +1,7 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
-doc: skills/using-superpowers/references/antigravity-tools.md
-doc_hash: sha256:60c2bc04004b16f21359dd71e74b5696965a2e8261c64581998bb24ba3eca045
+doc: _shared/agent核心能力/task-tracking-concept.md
+doc_hash: sha256:6926fb7bcc1e2a5be079a6dace4fe4ae069f6623818238575092089c631872c6
 generated_at: "2026-07-29T16:24:01Z"
 nodes:
   - uuid: 98c0729d-8a5a-5d7d-bbed-f6e3f8a8ceac
@@ -17,17 +17,4 @@ nodes:
       - using-superpowers-concept-任务追踪器工具集
     summary_hash: sha256:1cdd624fb71430522c971d0b8007ebb920064a1148570d4694ccdbd2f78704f7
     description_hash: sha256:2e0c48200de705de810fa9e8d09f6960fed26b51f25862e5ab130b1ce0d31aed
-    provenance: llm_inferred
-  - uuid: 56fd07e7-6a71-5351-9c99-d7c42e00d419
-    tag: entity
-    name: 后台进程管理工具
-    domain: 环境与配置
-    subdomain: 后台进程
-    domain_slug: 环境与配置
-    subdomain_slug: 后台进程
-    shared: false
-    members:
-      - using-superpowers-entity-后台进程管理工具
-    summary_hash: sha256:0782e19748c7898be62e35088868572d1a946b41a4563a186def603dfced2b10
-    description_hash: sha256:ea14e9280771ae1d9b65efea4813419657ba7ceeb62e9479bb9ecde53affa1cb
     provenance: llm_inferred

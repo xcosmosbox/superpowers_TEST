@@ -1,357 +1,287 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/gemini-tools.md
-doc_hash: sha256:46064f79a4342173480a0d1fae148e9a0d92ba4c62de08d20f404893396d6256
-generated_at: "2026-07-29T10:13:07Z"
+doc_hash: sha256:cbcc1c9ad8b6d0843d588782f870e6d068c969d7b6a18237cbca1a88771b1f26
+generated_at: "2026-07-29T16:24:01Z"
 nodes:
-  - uuid: 834c6a64-5d5d-5517-a48b-da48560c2299
+  - uuid: a25a69eb-0821-535c-a6be-e9e0ac297a1f
     tag: entity
-    name: 文件查找工具
-    domain: 基础操作能力
-    subdomain: 文件操作
-    domain_slug: 基础操作能力
-    subdomain_slug: 文件操作
+    name: 文件读取
+    domain: Agent核心能力
+    subdomain: 文件系统
+    domain_slug: agent核心能力
+    subdomain_slug: 文件系统
     shared: false
     members:
-      - using-superpowers-entity-glob工具
-    summary_hash: sha256:8873b297584d7ce8e92263b6edc047cd9eae0b4d92ed12260ffaef63d569eb16
-    description_hash: sha256:bcf9cc88e96aa7ef379ac3d1c5fa80c9515adc901b0b009a98fe52160eea1f15
+      - using-superpowers-entity-批量读取文件工具
+      - using-superpowers-entity-读取文件工具
+    summary_hash: sha256:1e9c7825ce175fa9b2bb4683d05429e60c38e3442aa3ec47894a05bc9bd57bcd
+    description_hash: sha256:4d26eaa9fd63a9f4148e0bb6f56cc25d4cf5a939054cbe7c867609e8b2d161ab
     provenance: llm_inferred
-  - uuid: f0352815-9824-5bc7-bbcf-08d82f9b7713
+  - uuid: 4f370efc-6215-5715-83a0-71d395dead68
     tag: entity
-    name: 列出目录工具
-    domain: 基础操作能力
-    subdomain: 文件操作
-    domain_slug: 基础操作能力
-    subdomain_slug: 文件操作
+    name: 文件编辑
+    domain: Agent核心能力
+    subdomain: 文件系统
+    domain_slug: agent核心能力
+    subdomain_slug: 文件系统
     shared: false
     members:
-      - using-superpowers-entity-list-directory工具
-    summary_hash: sha256:94ede18453f30273ef2fca0084e7ae49da939bd560814bb58983818867b645c3
-    description_hash: sha256:df91af0d5e174f411ddf8b48dd5bf7cf69fbcea3e875dbee9e03d5b547fcf277
+      - using-superpowers-entity-写入文件工具
+      - using-superpowers-entity-编辑文件工具
+    summary_hash: sha256:d5f6e5c499ed4a095997aef0871f03eb993ce0f9282d93972874d02647d00d29
+    description_hash: sha256:28b9b559dd8283bf97bbb7280ea16b9e5db727e4c32eb040ac09ad071c839ad1
     provenance: llm_inferred
-  - uuid: 0207d31f-739a-547b-8845-c9d0b67dfa1d
+  - uuid: 970e496c-86df-5f8d-b645-7f5746a60b82
     tag: entity
-    name: 读取文件工具
-    domain: 基础操作能力
-    subdomain: 文件操作
-    domain_slug: 基础操作能力
-    subdomain_slug: 文件操作
+    name: 文件浏览
+    domain: Agent核心能力
+    subdomain: 文件系统
+    domain_slug: agent核心能力
+    subdomain_slug: 文件系统
     shared: false
     members:
-      - using-superpowers-entity-read-file工具
-    summary_hash: sha256:a34400cb655aec6c4657ffc3fb21ba8e48475561100193ac206fa91c1654d64e
-    description_hash: sha256:0fee78f163a6b2c76854ebc218b36e710af083d6c5fdc8879909bb7758072db9
+      - using-superpowers-entity-列出目录工具
+      - using-superpowers-entity-文件查找工具
+    summary_hash: sha256:242f087820c3096ad134de1e70fcf409b6b45af25a641b776cfab4e8962ebbec
+    description_hash: sha256:4214d74a0ebd11fce5312235ed51dfccf5cf68c404281b13e19cb5a45b342b91
     provenance: llm_inferred
-  - uuid: c77570a2-180a-5c6c-8623-a529e99202fd
+  - uuid: 0cbfbcf8-1fb5-528b-b2e5-e8af2a99e1f4
     tag: entity
-    name: 批量读取文件工具
-    domain: 基础操作能力
-    subdomain: 文件操作
-    domain_slug: 基础操作能力
-    subdomain_slug: 文件操作
+    name: 内容搜索
+    domain: Agent核心能力
+    subdomain: 文件系统
+    domain_slug: agent核心能力
+    subdomain_slug: 文件系统
     shared: false
     members:
-      - using-superpowers-entity-read-many-files工具
-    summary_hash: sha256:9ae2a82deeaf37e80fed6834635e3332fd69ab8e9b89cc92543fb689a3c314aa
-    description_hash: sha256:9a1f16892bdbe190637f1e0364a63ae07ceaf7b1ceb5d951367174938b4b47df
+      - using-superpowers-entity-内容搜索工具
+    summary_hash: sha256:4741f7710f5b9cb4b5afb5e20d475310bb6e8c82f6a1583e8efb2c90385ccec9
+    description_hash: sha256:92ff6ef8afc99461b749006617c0a8b9d4d1ee7bc22aca72f1171fc3f9b4cdf0
     provenance: llm_inferred
-  - uuid: fefead5d-b1c4-55dd-9808-39b45cad3854
+  - uuid: 59e1d4a8-358b-5546-8e31-65171b938b0e
     tag: entity
-    name: 写入文件工具
-    domain: 基础操作能力
-    subdomain: 文件操作
-    domain_slug: 基础操作能力
-    subdomain_slug: 文件操作
+    name: Shell执行
+    domain: Agent核心能力
+    subdomain: 文件系统
+    domain_slug: agent核心能力
+    subdomain_slug: 文件系统
     shared: false
     members:
-      - using-superpowers-entity-write-file工具
-    summary_hash: sha256:0eb2b7a6a2b986a61608384911d29aeee3136fcc7f033d7d4d8d5ad2832b470d
-    description_hash: sha256:bb77aa804bccf3975526da83fefb8b7101744edbd6b09b260e894a5caae131d5
+      - using-superpowers-entity-运行shell命令工具
+    summary_hash: sha256:0923e0345302335661d37746f6cb8d49d21a708a191d9cf763e3d36fe1c17cdb
+    description_hash: sha256:604be569852d86a2eac0b04687b3d7041cc088c48b1eb31761711fd8a0daa16f
     provenance: llm_inferred
-  - uuid: a7a1fa53-000a-5812-aa05-c9ee3ce7dfc2
+  - uuid: 9de6724b-a0f0-580a-8040-e75e7d75cf71
     tag: entity
-    name: 编辑文件工具
-    domain: 基础操作能力
-    subdomain: 文件操作
-    domain_slug: 基础操作能力
-    subdomain_slug: 文件操作
+    name: 网络搜索
+    domain: Agent核心能力
+    subdomain: 信息检索
+    domain_slug: agent核心能力
+    subdomain_slug: 信息检索
     shared: false
     members:
-      - using-superpowers-entity-replace工具
-    summary_hash: sha256:79df9a025c8d6bf884bdaaebc82c7e7ad1b125de8c556b869f290e2ee4ef4eba
-    description_hash: sha256:829c87928892575f49499ee21b1ecf47a4aa869776b33c5e9ba3809ac5b7ea52
+      - using-superpowers-entity-google搜索工具
+    summary_hash: sha256:87c7571e27ecf3b13bc541e3cc8a37c0274d8081604348fb6305583faee3bbc3
+    description_hash: sha256:6685513f3559e123c99e04e383c61e7ba8e86426fb5be532c4c267ef5e1de78d
     provenance: llm_inferred
-  - uuid: c6cf6bba-2c05-5575-86af-6a197b7173be
+  - uuid: 8a669388-5b02-5ec7-8996-738c5d14924e
     tag: entity
-    name: 内容搜索工具
-    domain: 基础操作能力
-    subdomain: 文件操作
-    domain_slug: 基础操作能力
-    subdomain_slug: 文件操作
+    name: 网页抓取
+    domain: Agent核心能力
+    subdomain: 信息检索
+    domain_slug: agent核心能力
+    subdomain_slug: 信息检索
     shared: false
     members:
-      - using-superpowers-entity-grep-search工具
-    summary_hash: sha256:8ece1692269d082ac6583b23444ca0248d1394f57ca12563228998860b5b1b2c
-    description_hash: sha256:703481edd083d557434f8212e303f6f9859d72b447ab095878997e49142a5a3c
+      - using-superpowers-entity-网页抓取工具
+    summary_hash: sha256:cc10e50b83e8b001ae0fb7da452afe2d5a74ab97ef57623f52269134d672d236
+    description_hash: sha256:53f6c8b96958122b69a9caa6d0bdf3524e72ab1354aeef9a2940ec6cfd8e03a5
     provenance: llm_inferred
-  - uuid: fe22b237-61aa-55a1-9722-2c9b040c38df
+  - uuid: 372e8553-7229-5a4f-9720-e2ac59222593
     tag: entity
-    name: 运行Shell命令工具
-    domain: 基础操作能力
-    subdomain: Shell与网络操作
-    domain_slug: 基础操作能力
-    subdomain_slug: shell与网络操作
+    name: 内置文档查阅
+    domain: Agent核心能力
+    subdomain: 信息检索
+    domain_slug: agent核心能力
+    subdomain_slug: 信息检索
     shared: false
     members:
-      - using-superpowers-entity-run-shell-command工具
-    summary_hash: sha256:b83f0aaf9a6ad2f18cfb00f4bd91088d44bd4296d7499461263d1c6547358680
-    description_hash: sha256:b4065f813bd293104f51f6dc879de4fb3291f1cbe6aa0f363cff3889f135602e
+      - using-superpowers-entity-内置文档查阅工具
+    summary_hash: sha256:32a4173a294830bdc3c1f9d4f1dbf3beac8608bf9857f48a5e26b3c5a9470312
+    description_hash: sha256:ca0486e2f2256d4240049805907e051b4225b611d8ac8222987dcb9669c38dd9
     provenance: llm_inferred
-  - uuid: 1dd03498-9603-5b25-9b0f-0b9f5700eaeb
+  - uuid: 5c5e11b8-c2aa-5aa2-a005-edf8fc96bdb3
     tag: entity
-    name: Google搜索工具
-    domain: 基础操作能力
-    subdomain: Shell与网络操作
-    domain_slug: 基础操作能力
-    subdomain_slug: shell与网络操作
+    name: 用户询问
+    domain: Agent核心能力
+    subdomain: 用户交互
+    domain_slug: agent核心能力
+    subdomain_slug: 用户交互
     shared: false
     members:
-      - using-superpowers-entity-google-web-search工具
-    summary_hash: sha256:0b78785caa08fe3bdbbd439ce6335770f6c1a62b1a0f3873d61e87c2dffdff22
-    description_hash: sha256:b0da6e3b8c0124ab5368cd95ac5dad4cda9635c0b270c713ddb24051d38fccf4
+      - using-superpowers-entity-询问用户工具
+    summary_hash: sha256:3f276cfda01d374ee17b0096b290e5be967bb2378bcfbca98cbffb1e87d71766
+    description_hash: sha256:e4f13c12c2fc5a2d6943e62fe303af0f46c8bf785abb910c988020af0cf7d915
     provenance: llm_inferred
-  - uuid: 9737423a-34cf-5e61-818d-a5204ab35e10
+  - uuid: 2fb34dbb-c998-53f7-9fca-bb90e6d7b8f5
     tag: entity
-    name: 网页抓取工具
-    domain: 基础操作能力
-    subdomain: Shell与网络操作
-    domain_slug: 基础操作能力
-    subdomain_slug: shell与网络操作
+    name: 主题更新
+    domain: Agent核心能力
+    subdomain: 用户交互
+    domain_slug: agent核心能力
+    subdomain_slug: 用户交互
     shared: false
     members:
-      - using-superpowers-entity-web-fetch工具
-    summary_hash: sha256:04e2978da350c27285327926979ba584f173f9b705f8821a1ee6c73eab2151b8
-    description_hash: sha256:2365aff5eb62d4f8c0b18b92d18aff82ff6d0b57a11cb8d4b4a7b29fbe0de881
-    provenance: llm_inferred
-  - uuid: 73460a5e-e7fe-519c-8b4e-346ef71257be
-    tag: entity
-    name: 内置文档查阅工具
-    domain: 基础操作能力
-    subdomain: Shell与网络操作
-    domain_slug: 基础操作能力
-    subdomain_slug: shell与网络操作
-    shared: false
-    members:
-      - using-superpowers-entity-get-internal-docs工具
-    summary_hash: sha256:60f0ceb87066adaad2f18c8df9fc43367ec0c0f983ceaa4f434a0a14709c7f47
-    description_hash: sha256:743a60bba46568fbcd92407b095cd220a2c17514a55c56c5530cdbea1cd8f8b2
-    provenance: llm_inferred
-  - uuid: 9c176b80-b9b7-52c9-8b27-5dc96dbd76de
-    tag: entity
-    name: 列出MCP资源工具
-    domain: 基础操作能力
-    subdomain: MCP资源交互
-    domain_slug: 基础操作能力
-    subdomain_slug: mcp资源交互
-    shared: false
-    members:
-      - using-superpowers-entity-list-mcp-resources工具
-    summary_hash: sha256:a8b1e525a756de0bebe2aa979342d5806a50f00b9bdee0ff3a60968bb075c807
-    description_hash: sha256:61f2b1d0534a7538a865963a2a725ac771a45268295ef8e36190f7446e74bc42
-    provenance: llm_inferred
-  - uuid: 46134c70-f37f-54bb-b34f-8742a65b610d
-    tag: entity
-    name: 读取MCP资源工具
-    domain: 基础操作能力
-    subdomain: MCP资源交互
-    domain_slug: 基础操作能力
-    subdomain_slug: mcp资源交互
-    shared: false
-    members:
-      - using-superpowers-entity-read-mcp-resource工具
-    summary_hash: sha256:fc3ee6dd0413a7fe66c3914457623d7b3fc2ed53c63a65e46c7edc710bab69ee
-    description_hash: sha256:527698bd4284f2b898c4c59da534956bc9a82f2fc5caeb539312e333819ec78a
-    provenance: llm_inferred
-  - uuid: 67e3eea8-78d9-52ed-bd99-3a6b23c544a5
-    tag: entity
-    name: 任务列表工具
-    domain: 任务与状态管理
-    subdomain: 任务追踪
-    domain_slug: 任务与状态管理
-    subdomain_slug: 任务追踪
-    shared: false
-    members:
-      - using-superpowers-entity-write-todos工具
-    summary_hash: sha256:a1d91dba1acdde2cae6106d16d4474595200e44ce0577f5052f20d69617ebd40
-    description_hash: sha256:e157765723b0182fea74a3c2b113b37ea99c2e58aabb633a0941afd802152440
-    provenance: llm_inferred
-  - uuid: ede1828c-d611-5435-a7a0-a9a59984a766
-    tag: concept
-    name: 任务追踪器工具集
-    domain: 任务与状态管理
-    subdomain: 任务追踪
-    domain_slug: 任务与状态管理
-    subdomain_slug: 任务追踪
-    shared: false
-    members:
-      - using-superpowers-concept-任务追踪器工具集
-    summary_hash: sha256:728561d38458b49e7c1ffb1c9a832dc23871d57235603d357014276264fb0900
-    description_hash: sha256:5b70d8b5f536defb8511bf1572bc6a5d31ad17063f7dad4a5e8a7e8046a432cf
-    provenance: llm_inferred
-  - uuid: b8f17c35-3620-56d4-9c9d-554fdd1577e5
-    tag: entity
-    name: 保存记忆工具
-    domain: 任务与状态管理
-    subdomain: 会话与计划状态
-    domain_slug: 任务与状态管理
-    subdomain_slug: 会话与计划状态
-    shared: false
-    members:
-      - using-superpowers-entity-save-memory工具
-    summary_hash: sha256:c304afb770d09286e4a3fd253fadbc089d45cfb4cf6b0547acc63916ce9a1ec9
-    description_hash: sha256:5bf69a4ede0e399395ea8ad63377522a25d667cd2d4f68a5af045fafae5c9323
-    provenance: llm_inferred
-  - uuid: bbb51b6a-820b-5234-811f-d44b2cb3a9ce
-    tag: entity
-    name: 更新主题工具
-    domain: 任务与状态管理
-    subdomain: 会话与计划状态
-    domain_slug: 任务与状态管理
-    subdomain_slug: 会话与计划状态
-    shared: false
-    members:
-      - using-superpowers-entity-update-topic工具
+      - using-superpowers-entity-更新主题工具
     summary_hash: sha256:096023d8d66a2fd1412bb984146c880867625bf299ba058edc3cca99da1b6510
     description_hash: sha256:d7b4cb5cec06f53dfdcbbb6cb04f6108d00843b42d7009942d2dba646e85225c
     provenance: llm_inferred
-  - uuid: 9a69a2d8-c5a7-5405-abbe-8260ef3f5267
+  - uuid: f242f987-5180-5710-b924-2ff3d3e66436
     tag: entity
-    name: 进入计划模式工具
-    domain: 任务与状态管理
-    subdomain: 会话与计划状态
-    domain_slug: 任务与状态管理
-    subdomain_slug: 会话与计划状态
+    name: 持久记忆
+    domain: Agent核心能力
+    subdomain: 记忆与状态
+    domain_slug: agent核心能力
+    subdomain_slug: 记忆与状态
     shared: false
     members:
-      - using-superpowers-entity-enter-plan-mode工具
-    summary_hash: sha256:efd14700c29fb219684c81c2a8994d2bd614ab0bd046f55d682c26800c5ecd13
-    description_hash: sha256:24bccc7341b46c6897716c319cb1ba11218a604348c1f2f7ec5dd4d93dd3428e
+      - using-superpowers-entity-保存记忆工具
+    summary_hash: sha256:6015b398cea1d7ae5ac326f5f71c2b00934e6cd9c99a557809e8cb053ac4ef80
+    description_hash: sha256:5bf69a4ede0e399395ea8ad63377522a25d667cd2d4f68a5af045fafae5c9323
     provenance: llm_inferred
-  - uuid: b321daf8-9c2c-5f1c-81e6-d3c0d5849860
+  - uuid: 56575c00-70fa-5594-8f1f-c6951a7659c0
     tag: entity
-    name: 退出计划模式工具
-    domain: 任务与状态管理
-    subdomain: 会话与计划状态
-    domain_slug: 任务与状态管理
-    subdomain_slug: 会话与计划状态
+    name: 任务列表
+    domain: Agent核心能力
+    subdomain: 任务管理
+    domain_slug: agent核心能力
+    subdomain_slug: 任务管理
     shared: false
     members:
-      - using-superpowers-entity-exit-plan-mode工具
-    summary_hash: sha256:aeb3b9e374a8675374552f1a7c6bd3de0a7bbdc35a989e880b3bd52db28a9dc5
-    description_hash: sha256:e624b1d00dcfb9aa522576f5f8bb59127519494d003b49bfee834a314bee56ed
+      - using-superpowers-entity-任务列表工具
+    summary_hash: sha256:a1d91dba1acdde2cae6106d16d4474595200e44ce0577f5052f20d69617ebd40
+    description_hash: sha256:4f4ee311663b89188dadfc5fdcd8a11c24bb728869ddfa63e22aac32ccd744bf
     provenance: llm_inferred
-  - uuid: 005bc38e-9595-5fcf-87f6-32d35a2f1922
-    tag: entity
-    name: 询问用户工具
-    domain: 任务与状态管理
-    subdomain: 会话与计划状态
-    domain_slug: 任务与状态管理
-    subdomain_slug: 会话与计划状态
-    shared: false
+  - uuid: 98c0729d-8a5a-5d7d-bbed-f6e3f8a8ceac
+    tag: concept
+    name: 任务追踪概念
+    domain: Agent核心能力
+    subdomain: 任务管理
+    domain_slug: agent核心能力
+    subdomain_slug: 任务管理
+    shared: true
     members:
-      - using-superpowers-entity-ask-user工具
-    summary_hash: sha256:589b73ec3a42028e6276ca2f49c3b43792d34d42fd5165da38579d85c6d56600
-    description_hash: sha256:e4f13c12c2fc5a2d6943e62fe303af0f46c8bf785abb910c988020af0cf7d915
+      - using-superpowers-concept-任务工件
+      - using-superpowers-concept-任务追踪器工具集
+    summary_hash: sha256:1cdd624fb71430522c971d0b8007ebb920064a1148570d4694ccdbd2f78704f7
+    description_hash: sha256:2e0c48200de705de810fa9e8d09f6960fed26b51f25862e5ab130b1ce0d31aed
     provenance: llm_inferred
-  - uuid: 5e7bd950-fa28-50c8-ae76-55b6bf661a1a
+  - uuid: 0c7d2924-925f-58f6-876b-429fce527abe
     tag: entity
     name: 子代理完成工具
-    domain: 子代理编排
-    subdomain: 子代理管理
-    domain_slug: 子代理编排
-    subdomain_slug: 子代理管理
+    domain: 子代理系统
+    subdomain: 子代理调度
+    domain_slug: 子代理系统
+    subdomain_slug: 子代理调度
     shared: false
     members:
-      - using-superpowers-entity-complete-task工具
-    summary_hash: sha256:b3c767d9ed14721ce0e328ca581dd26f848bdd165ebf7bad123fb2dfaaaf7dfb
+      - using-superpowers-entity-子代理完成工具
+    summary_hash: sha256:75f26f435777017536952ace9ed2e72a048052a781351393908fb1ada206b338
     description_hash: sha256:c82158a0b21b5b0e4e66870521cd048081cb8af60d45511728d549e5d6c9ec34
     provenance: llm_inferred
-  - uuid: b3b0ff5f-63b6-5625-ad1e-206b3a54a944
+  - uuid: e05b5202-a73d-56fe-83bd-8e053c2fe242
     tag: concept
-    name: 并行子代理调度
-    domain: 子代理编排
-    subdomain: 子代理管理
-    domain_slug: 子代理编排
-    subdomain_slug: 子代理管理
-    shared: false
+    name: 子代理调度概念
+    domain: 子代理系统
+    subdomain: 子代理调度
+    domain_slug: 子代理系统
+    subdomain_slug: 子代理调度
+    shared: true
     members:
+      - using-superpowers-concept-子代理调度工具概念
       - using-superpowers-concept-并行子代理调度
-    summary_hash: sha256:4f82b529d9e0cb16550934e44a940add569b92e948cf14fa4db2ab3a382f7fed
-    description_hash: sha256:e8c6519721a8d6448c0827005fb2bc61144215771297e0a2aecfe089dc8840f7
-    provenance: llm_inferred
-  - uuid: e7ec99a9-55b9-5d63-8677-2a814d2a9ccf
-    tag: concept
-    name: 提示模板填充
-    domain: 子代理编排
-    subdomain: 子代理管理
-    domain_slug: 子代理编排
-    subdomain_slug: 子代理管理
-    shared: false
-    members:
       - using-superpowers-concept-提示模板填充
-    summary_hash: sha256:7b66a35c759c1c398e3922bce8a280a5e627f2b8e896620d9557a09ff99369b2
-    description_hash: sha256:c84521abcc8ddc9290a2444685768c2c8de1e3b25c0e19501e24b71069f97ca7
-    provenance: llm_inferred
-  - uuid: 82c5c068-40b0-5e5f-aade-368ede57e32d
-    tag: concept
-    name: 通用子代理快捷方式
-    domain: 子代理编排
-    subdomain: 子代理管理
-    domain_slug: 子代理编排
-    subdomain_slug: 子代理管理
-    shared: false
-    members:
       - using-superpowers-concept-通用子代理快捷方式
-    summary_hash: sha256:9728e94cdd8eb7a6a6c46d0837ea1745c2134215d584d130097cb34a3ca92b63
-    description_hash: sha256:ec17748e587051d977d3515bf8853f288585ce7e9de06d15738faff579be59cd
+    summary_hash: sha256:d8839dbf4b1998535336c67721d0d6d8a32c8ef05854fb5e8e1e2242ac59c262
+    description_hash: sha256:678e67ca2f407ec53bfc47ca9b74a4736342b9466a00c98e716d42bf1be75cff
     provenance: llm_inferred
-  - uuid: 254b4302-834a-5548-bba8-8f4e899da220
+  - uuid: 4888eda3-c581-5f35-8405-9bf6414856fd
     tag: entity
-    name: 激活技能工具
-    domain: 技能与工作流
+    name: 技能激活
+    domain: 技能系统
     subdomain: 技能管理
-    domain_slug: 技能与工作流
+    domain_slug: 技能系统
     subdomain_slug: 技能管理
     shared: false
     members:
-      - using-superpowers-entity-activate-skill工具
-    summary_hash: sha256:4be162eb2fec338880410434e8a5deff9d9fbfd947f77988bd83d518ed055951
+      - using-superpowers-entity-激活技能工具
+    summary_hash: sha256:e68d2552227bb7f2fe9cf3be937b2132707c08b60688e7cbb4771e7bbcea7e1a
     description_hash: sha256:2456e719ed3cef14d823fbf9321400799e4c0b8ddb18bc45bbdf9a62429f7212
     provenance: llm_inferred
   - uuid: 33a1d445-2cda-5665-9f71-9215f5eef491
     tag: entity
-    name: 技能存储目录
-    domain: 技能与工作流
+    name: 技能存储
+    domain: 技能系统
     subdomain: 技能管理
-    domain_slug: 技能与工作流
+    domain_slug: 技能系统
     subdomain_slug: 技能管理
     shared: false
     members:
       - using-superpowers-entity-技能存储目录
-    summary_hash: sha256:67fe58a51ef25060835596b6073c383ba26ab4ef9cf6ed5d976fc49cd35ff927
+    summary_hash: sha256:2494839c342c8486df26458834523ee23f28c1c74ff5a922746e424f07897126
     description_hash: sha256:42ded927c7815e55e0062aaf81fab0047aeef379f299b12ae9b5d96878b2eb09
     provenance: llm_inferred
   - uuid: cc7a06b6-4d56-5021-9fe1-a9f0c13da6f2
     tag: concept
     name: GEMINI.md加载机制
-    domain: 技能与工作流
-    subdomain: 技能管理
-    domain_slug: 技能与工作流
-    subdomain_slug: 技能管理
+    domain: 环境与配置
+    subdomain: 指令加载
+    domain_slug: 环境与配置
+    subdomain_slug: 指令加载
     shared: false
     members:
       - using-superpowers-concept-gemini-md加载机制
     summary_hash: sha256:b2a06a3a6e45f4612af2241b2c8ea8ef0784cb2f39150709342a30837d2af180
-    description_hash: sha256:acebf6166ea199e5696ee8eeb1130e7e6f09a57b106b335852688b6d28070481
+    description_hash: sha256:59dfabff3ec01559f9962902e911df76d9d41c5cc9dc4f68ed50238172671fa6
+    provenance: llm_inferred
+  - uuid: ac27160d-74b0-5e31-885d-c63440c2421b
+    tag: entity
+    name: 计划模式控制工具
+    domain: 计划模式
+    subdomain: 计划模式控制
+    domain_slug: 计划模式
+    subdomain_slug: 计划模式控制
+    shared: false
+    members:
+      - using-superpowers-entity-进入计划模式工具
+      - using-superpowers-entity-退出计划模式工具
+    summary_hash: sha256:8d2d7e7e773f442d4db7725dca8ba18fcc904ea6448dea5515713dff485f78fa
+    description_hash: sha256:c9f714563bb648a3bcf4bb38aa5604a39fdbe375c276315e835cd45bab126878
+    provenance: llm_inferred
+  - uuid: 2e6689f8-10bc-5713-88d0-0c2b50d6bb31
+    tag: entity
+    name: MCP资源列表
+    domain: MCP资源
+    subdomain: MCP资源工具
+    domain_slug: mcp资源
+    subdomain_slug: mcp资源工具
+    shared: false
+    members:
+      - using-superpowers-entity-列出mcp资源工具
+    summary_hash: sha256:3a36a2de8298b702391b85f211aefc09c56e1ffc0a3fdad5900969f25054b33b
+    description_hash: sha256:eb2dfb30ffcdcbfd9359b87bccb71709f00eef6e27ec8b879fba06757ada1e04
+    provenance: llm_inferred
+  - uuid: 4381c2bb-a72e-5a9e-ba21-4a269cec44f7
+    tag: entity
+    name: MCP资源读取
+    domain: MCP资源
+    subdomain: MCP资源工具
+    domain_slug: mcp资源
+    subdomain_slug: mcp资源工具
+    shared: false
+    members:
+      - using-superpowers-entity-读取mcp资源工具
+    summary_hash: sha256:d2f44895d4c085705c73646cb4b20ba68efcc31b63e146f880ace0b83c0d1e74
+    description_hash: sha256:9188c5c1ecb211a159ebddbdea1bf30da9f6edf3eebca9a53e1cc122176b3903
     provenance: llm_inferred
