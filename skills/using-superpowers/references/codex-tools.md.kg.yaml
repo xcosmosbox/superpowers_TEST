@@ -1,8 +1,8 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/codex-tools.md
-doc_hash: sha256:941f8b83d1a9e8289aa57862d559b4d6d1db647e278a1b642170948605cec633
-generated_at: "2026-07-29T16:24:01Z"
+doc_hash: sha256:96a49ea61d9a7546ff8a3c5cab2200ed61e2961200a54c98e460682a5b6f4880
+generated_at: "2026-07-29T17:19:54Z"
 nodes:
   - uuid: 58145a4f-928b-5328-8140-25a215dd7682
     tag: entity
@@ -17,19 +17,6 @@ nodes:
     summary_hash: sha256:e63efa5a93eef071247c7dbb58c300d2cba064761a502158c9a37aeca0f795fd
     description_hash: sha256:6d7455fc3f2797b48b8dc2d2704b457a3a8124abca9185557f2efe63e4eca148
     provenance: llm_inferred
-  - uuid: dc70fe9e-464e-50f5-9ca5-ab0f9e6a61db
-    tag: concept
-    name: 子代理调度规则
-    domain: 子代理系统
-    subdomain: 子代理调度
-    domain_slug: 子代理系统
-    subdomain_slug: 子代理调度
-    shared: false
-    members:
-      - using-superpowers-concept-子代理调度规则
-    summary_hash: sha256:108a8cc53a2093ba9f796cb7e5006a9f9ca25619b0ccca73db7d68ed3bc0dfff
-    description_hash: sha256:064717e903e5e556287414ec5d64bbff3ba4257183fa6a73c271cccacdda3d7a
-    provenance: llm_inferred
   - uuid: 7c69f017-552a-5625-a62b-71131f53050f
     tag: concept
     name: Codex应用完成工作流
@@ -43,3 +30,16 @@ nodes:
     summary_hash: sha256:847606f743e248283e9ead4117eb9f9d89f908f3ee1961441fdeda4bf190b6ab
     description_hash: sha256:3e0809f102fd3232387b417886f88df0228bea096be289d247c1939ed151f9df
     provenance: llm_inferred
+  - uuid: dc70fe9e-464e-50f5-9ca5-ab0f9e6a61db
+    tag: concept
+    name: 子代理调度规则
+    domain: 子代理系统
+    subdomain: 子代理调度
+    domain_slug: 子代理系统
+    subdomain_slug: 子代理调度
+    shared: false
+    members:
+      - using-superpowers-concept-子代理调度规则
+    summary_hash: sha256:108a8cc53a2093ba9f796cb7e5006a9f9ca25619b0ccca73db7d68ed3bc0dfff
+    description_hash: sha256:6646c8468b03307552282a8080d2845d21b1c36458dc978ed4375902689bc6d0
+    provenance: human_curated

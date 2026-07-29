@@ -2,7 +2,7 @@
 
 <!-- kg:uuid=cc7a06b6-4d56-5021-9fe1-a9f0c13da6f2 tag=concept shared=false readonly-meta -->
 ## GEMINI.md加载机制
-- **归属**：环境与配置 / 指令加载
+- **归属**：环境与配置 / 环境配置
 
 **摘要**（可编辑）
 层次化加载GEMINI.md指令文件的方法。

@@ -29,7 +29,7 @@ pi-subagents 是 Pi 平台的可选伴侣包，需单独安装。它提供 subag
 
 <!-- kg:uuid=4b86abdd-9f88-53ee-aa89-2ac7a72074cf tag=concept shared=false readonly-meta -->
 ## 工具可用性说明
-- **归属**：环境与配置 / 工具可用性
+- **归属**：环境与配置 / 环境配置
 
 **摘要**（可编辑）
 关于核心环境缺少某工具时的备选方案和说明。
