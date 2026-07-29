@@ -1,0 +1,21 @@
+# 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
+schema_version: 1
+doc: _shared/ai代理增强与技能集成/sub-agent-scheduling-tool.md
+doc_hash: sha256:286880edc128ec108644c6abad9479c68ed691441a38ced60f739a6d139e36fd
+generated_at: "2026-07-29T08:41:54Z"
+nodes:
+  - uuid: 0c3512bb-01a0-554a-90c2-82ac75464088
+    tag: entity
+    name: 子代理调度工具
+    domain: AI代理增强与技能集成
+    subdomain: 子代理调度与集成
+    domain_slug: ai代理增强与技能集成
+    subdomain_slug: 子代理调度与集成
+    shared: true
+    members:
+      - using-superpowers-entity-invoke-agent-工具
+      - using-superpowers-entity-invoke-subagent工具
+      - using-superpowers-entity-subagent-tool
+    summary_hash: sha256:c6a7e361a1a13cdd9a4f98984a7041aa1bbdb9ba3ca864ae1c699e36878e5829
+    description_hash: sha256:e52964628ea215efdde163e026bcf7e7fc5cd4cdde1b00846107b895920a59b4
+    provenance: llm_inferred
