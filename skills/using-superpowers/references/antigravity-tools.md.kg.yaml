@@ -1,8 +1,8 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/antigravity-tools.md
-doc_hash: sha256:9cf600ab4aef994845ad4706c9c6bab684efa1393604d4cd9e64fa6342fc3845
-generated_at: "2026-07-30T02:59:41Z"
+doc_hash: sha256:82dcb7f2808bd77cb01c6001d810e591f2a6e2b3d4ef5d5faf49121751938cf1
+generated_at: "2026-07-30T08:11:54Z"
 nodes:
   - uuid: 44081383-217a-5148-b092-1a1ff3e222ed
     tag: entity
@@ -15,8 +15,8 @@ nodes:
     members:
       - using-superpowers-entity-manage-task工具
     summary_hash: sha256:3a01f18a6d28e03c2428e97f0c1aa8e61f493469a870f681968dffdb0ed336f3
-    description_hash: sha256:ea14e9280771ae1d9b65efea4813419657ba7ceeb62e9479bb9ecde53affa1cb
-    provenance: llm_inferred
+    description_hash: sha256:3bcac7c455bcd4b45b9c75c09fb0e783e4d95c353faa899f8a0e8bfce88bf277
+    provenance: human_curated
   - uuid: b087b64a-4df8-56a1-aae1-4c1e22a3c273
     tag: concept
     name: 任务追踪概念

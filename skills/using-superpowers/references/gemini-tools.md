@@ -13,7 +13,7 @@
 
 <!-- kg:uuid=895990cb-952f-57a2-8c4c-37e7e72241b4 tag=entity shared=false readonly-meta -->
 ## MCP资源列表
-- **归属**：AI代理能力扩展 / 系统交互与用户界面
+- **归属**：AI代理能力扩展 / MCP资源
 
 **摘要**（可编辑）
 列出所有可用的MCP资源。
@@ -24,7 +24,7 @@
 
 <!-- kg:uuid=cdade8db-2154-5f75-a75b-acee19ec19a5 tag=entity shared=false readonly-meta -->
 ## MCP资源读取
-- **归属**：AI代理能力扩展 / 系统交互与用户界面
+- **归属**：AI代理能力扩展 / MCP资源
 
 **摘要**（可编辑）
 读取指定的MCP资源内容。

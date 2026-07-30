@@ -1,8 +1,8 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/codex-tools.md
-doc_hash: sha256:0ae27c712b231bef69f9b61d80a4edc3acafeb98de97e6362c1c343bf3cf8b47
-generated_at: "2026-07-30T02:59:41Z"
+doc_hash: sha256:210b9d4c921cf20fddb8144ceba5ada8546aeaa70658c4dbd96ff352f20a3c3a
+generated_at: "2026-07-30T08:11:54Z"
 nodes:
   - uuid: 58145a4f-928b-5328-8140-25a215dd7682
     tag: entity
@@ -17,6 +17,19 @@ nodes:
     summary_hash: sha256:e63efa5a93eef071247c7dbb58c300d2cba064761a502158c9a37aeca0f795fd
     description_hash: sha256:5da4f401e267d1e6895e2d40312ed286d0b745c63c88ddf0c18a8b8845bc205b
     provenance: llm_inferred
+  - uuid: 7c69f017-552a-5625-a62b-71131f53050f
+    tag: concept
+    name: Codex应用完成工作流
+    domain: AI代理能力扩展
+    subdomain: 知识持久化与配置
+    domain_slug: ai代理能力扩展
+    subdomain_slug: 知识持久化与配置
+    shared: false
+    members:
+      - using-superpowers-concept-codex应用完成工作流
+    summary_hash: sha256:847606f743e248283e9ead4117eb9f9d89f908f3ee1961441fdeda4bf190b6ab
+    description_hash: sha256:8fe2cfbd55d87b79cbdbb840836e8004522271c449ca4d64e6eb6e434fef1efb
+    provenance: human_curated
   - uuid: b600e3bb-e1b3-59cf-afd8-ff6de9ef9a7e
     tag: concept
     name: 子代理调度
@@ -30,17 +43,4 @@ nodes:
       - using-superpowers-concept-子代理调度规则
     summary_hash: sha256:73a44f0f9ecf23d23685d0b81d2179c515ed7da35f0fda9ce654224a38c93e16
     description_hash: sha256:d785bf37916f738da2dcbcb3c2f3fb4f6b6d4e77f028b2db4447b1f4123e7260
-    provenance: llm_inferred
-  - uuid: 7c69f017-552a-5625-a62b-71131f53050f
-    tag: concept
-    name: Codex应用完成工作流
-    domain: AI代理能力扩展
-    subdomain: 知识持久化与配置
-    domain_slug: ai代理能力扩展
-    subdomain_slug: 知识持久化与配置
-    shared: false
-    members:
-      - using-superpowers-concept-codex应用完成工作流
-    summary_hash: sha256:847606f743e248283e9ead4117eb9f9d89f908f3ee1961441fdeda4bf190b6ab
-    description_hash: sha256:7f1b07153f1f0df65a9c7f89625b498a91833e79291fa84dd8f185ec3cc6ccb8
     provenance: llm_inferred
