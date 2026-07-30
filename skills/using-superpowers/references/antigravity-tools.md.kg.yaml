@@ -1,32 +1,19 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/antigravity-tools.md
-doc_hash: sha256:9cf600ab4aef994845ad4706c9c6bab684efa1393604d4cd9e64fa6342fc3845
-generated_at: "2026-07-30T02:59:41Z"
+doc_hash: sha256:1f300976401b897d10b293c868154f2d5976aea0745eb3583e94a076cfb279e3
+generated_at: "2026-07-30T09:19:25Z"
 nodes:
   - uuid: 44081383-217a-5148-b092-1a1ff3e222ed
     tag: entity
     name: manage_task工具
-    domain: AI代理能力扩展
-    subdomain: 任务与进程管理
-    domain_slug: ai代理能力扩展
-    subdomain_slug: 任务与进程管理
+    domain: 任务与计划
+    subdomain: 后台进程管理
+    domain_slug: 任务与计划
+    subdomain_slug: 后台进程管理
     shared: false
     members:
       - using-superpowers-entity-manage-task工具
-    summary_hash: sha256:3a01f18a6d28e03c2428e97f0c1aa8e61f493469a870f681968dffdb0ed336f3
-    description_hash: sha256:ea14e9280771ae1d9b65efea4813419657ba7ceeb62e9479bb9ecde53affa1cb
-    provenance: llm_inferred
-  - uuid: b087b64a-4df8-56a1-aae1-4c1e22a3c273
-    tag: concept
-    name: 任务追踪概念
-    domain: AI代理能力扩展
-    subdomain: 任务与进程管理
-    domain_slug: ai代理能力扩展
-    subdomain_slug: 任务与进程管理
-    shared: true
-    members:
-      - using-superpowers-concept-任务追踪概念
-    summary_hash: sha256:30967ab6ac12fba37cfe74bdeb5490137948008734a1e55fc6b728b43fd8cdbb
-    description_hash: sha256:4f4bc6bb562e7abb0b04a6044932a791507834ff11fd1967185c3e6257df0851
+    summary_hash: sha256:0e1f8a9129c35e5e1b78c9ff847f9a6f1b9f6c79e96baacfa442305a33930b79
+    description_hash: sha256:4d54b02a53ebc5744fa86777047af379cebbd683ea604929491894713a1c7b85
     provenance: llm_inferred
