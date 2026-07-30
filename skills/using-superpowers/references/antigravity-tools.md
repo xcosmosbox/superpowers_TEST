@@ -8,7 +8,7 @@
 Antigravity CLI中用于管理后台进程的工具，支持list、kill、status和send_input操作。
 
 **详述**（可编辑）
-manage_task 是 Antigravity CLI 中的进程管理工具，用于管理后台进程，支持 list（列表）、kill（终止）、status（状态）和 send_input（发送输入）操作。该工具专为进程控制设计，不应被误用于任务跟踪场景（如创建待办事项或标记完成）。
+manage_task 是 Antigravity CLI 中的进程管理工具，用于管理后台进程，支持 list（列表）、kill（终止）、status（状态）和 send_input（发送输入）操作。
 <!-- /kg:uuid=44081383-217a-5148-b092-1a1ff3e222ed -->
 
 <!-- kg:uuid=b087b64a-4df8-56a1-aae1-4c1e22a3c273 shared=true mirror=true source=_shared/ai代理能力扩展/task-tracking-concept.md -->
