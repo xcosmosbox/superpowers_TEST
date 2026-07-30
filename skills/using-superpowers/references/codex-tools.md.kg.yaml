@@ -1,6 +1,19 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/codex-tools.md
-doc_hash: sha256:bd026fbe8f948e11059c9fd3fe3df51beb1d19a750243b76964073d9aac799b7
-generated_at: "2026-07-30T12:00:31Z"
-nodes: []
+doc_hash: sha256:2ea1373b8b4c120592949ddbcf2d7aec9538effa06a04fc54d8ea9283915621d
+generated_at: "2026-07-30T13:00:31Z"
+nodes:
+  - uuid: 4dd4e87f-9a97-5fa2-9928-e49204724319
+    tag: concept
+    name: AGENTS.md层次化加载机制
+    domain: 环境与配置
+    subdomain: 运行环境
+    domain_slug: 环境与配置
+    subdomain_slug: 运行环境
+    shared: false
+    members:
+      - using-superpowers-concept-agents-md层次化加载机制
+    summary_hash: sha256:c9b400e8d11b14363edba4412995246b743b93e573848f4202af5f5718ebc67b
+    description_hash: sha256:c6e0ecfdfebb9b82ec6c3c414f851408744bb4d24f6ca3d4a5cb76006be60052
+    provenance: llm_inferred
