@@ -1,8 +1,8 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/gemini-tools.md
-doc_hash: sha256:ea7a7bdbf1110a649942c06f5a600495c9cbc1898da97947c74369a4fb6f906b
-generated_at: "2026-07-30T12:02:03Z"
+doc_hash: sha256:3662ff239771d97fa3c89a5b12f0d4de85372fbd93da484fa41f95fce8b13c29
+generated_at: "2026-07-30T12:14:31Z"
 nodes:
   - uuid: 039a773e-f06a-5259-8306-2bcbcef49723
     tag: entity
@@ -132,8 +132,8 @@ nodes:
     members:
       - using-superpowers-entity-任务列表
     summary_hash: sha256:7ea75a994f647539a0403bb1b31cd01347c3ee9077498d22d9e82696bca0e0ff
-    description_hash: sha256:b36812a9abf7fcb02a9856cfd78b2887217c20fbe6d316b6221dbdea39d3073d
-    provenance: llm_inferred
+    description_hash: sha256:bdfe281f97cd0f0fe68a4bc69b96cde54ac128c144957f3a7ad5a67b55a6b3c8
+    provenance: human_curated
   - uuid: 70d30298-1e84-5b0a-ab9f-87323d13ebcc
     tag: entity
     name: 技能激活
