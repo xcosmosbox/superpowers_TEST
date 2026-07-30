@@ -1,61 +1,59 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/pi-tools.md
-doc_hash: sha256:a2f999c4d35bcfc20cc897a882471218ced5022b2e2c8a07e5efeada5b4dbbdf
-generated_at: "2026-07-29T16:24:01Z"
+doc_hash: sha256:cc60bbdfdc29a06d94dd8969e64d760c40ae2a8c1fba5c377f0a814938ffbd28
+generated_at: "2026-07-30T02:59:41Z"
 nodes:
-  - uuid: e05b5202-a73d-56fe-83bd-8e053c2fe242
-    tag: concept
-    name: 子代理调度概念
-    domain: 子代理系统
-    subdomain: 子代理调度
-    domain_slug: 子代理系统
-    subdomain_slug: 子代理调度
-    shared: true
-    members:
-      - using-superpowers-concept-子代理调度工具概念
-      - using-superpowers-concept-并行子代理调度
-      - using-superpowers-concept-提示模板填充
-      - using-superpowers-concept-通用子代理快捷方式
-    summary_hash: sha256:d8839dbf4b1998535336c67721d0d6d8a32c8ef05854fb5e8e1e2242ac59c262
-    description_hash: sha256:678e67ca2f407ec53bfc47ca9b74a4736342b9466a00c98e716d42bf1be75cff
-    provenance: llm_inferred
   - uuid: 418c488a-e966-5a78-a294-e68410f08675
     tag: entity
     name: pi-subagents包
-    domain: 子代理系统
-    subdomain: 子代理包
-    domain_slug: 子代理系统
-    subdomain_slug: 子代理包
+    domain: AI代理能力扩展
+    subdomain: 子代理管理
+    domain_slug: ai代理能力扩展
+    subdomain_slug: 子代理管理
     shared: false
     members:
       - using-superpowers-entity-pi-subagents包
     summary_hash: sha256:097917264bb65dc38897b6e7b60e8de683b3eef1ea580906af50e7c556658ddb
-    description_hash: sha256:d77ed8a170ff33500a768d7d5ce73b1929c77918adde1cbf07d1fd8a7c52ab63
+    description_hash: sha256:b4de7e6f47eef431fca56c956daa3b8c6d850e414b61e1e2eca0db75f5aa29fc
+    provenance: llm_inferred
+  - uuid: b600e3bb-e1b3-59cf-afd8-ff6de9ef9a7e
+    tag: concept
+    name: 子代理调度
+    domain: AI代理能力扩展
+    subdomain: 子代理管理
+    domain_slug: ai代理能力扩展
+    subdomain_slug: 子代理管理
+    shared: true
+    members:
+      - using-superpowers-concept-子代理调度概念
+      - using-superpowers-concept-子代理调度规则
+    summary_hash: sha256:73a44f0f9ecf23d23685d0b81d2179c515ed7da35f0fda9ce654224a38c93e16
+    description_hash: sha256:d785bf37916f738da2dcbcb3c2f3fb4f6b6d4e77f028b2db4447b1f4123e7260
     provenance: llm_inferred
   - uuid: 14956b49-0826-5456-a38a-1157d99a851c
     tag: concept
     name: 动作映射规则
-    domain: 技能系统
-    subdomain: 技能管理
-    domain_slug: 技能系统
-    subdomain_slug: 技能管理
+    domain: AI代理能力扩展
+    subdomain: 子代理管理
+    domain_slug: ai代理能力扩展
+    subdomain_slug: 子代理管理
     shared: false
     members:
       - using-superpowers-concept-动作映射规则
     summary_hash: sha256:ba8531940dfbc336726c008129d88bb0dcf08f80a57850f48627b5cb34cf83e0
-    description_hash: sha256:beb6068e6b0775b3a53ea07d9a62047c4266cc716065ddd61c9cae15a45a554e
+    description_hash: sha256:adf21ec8aa604a870768c74084c4271da706348d6c841ea81887ae77083b4885
     provenance: llm_inferred
   - uuid: 4b86abdd-9f88-53ee-aa89-2ac7a72074cf
     tag: concept
     name: 工具可用性说明
-    domain: 环境与配置
-    subdomain: 工具可用性
-    domain_slug: 环境与配置
-    subdomain_slug: 工具可用性
+    domain: AI代理能力扩展
+    subdomain: 系统交互与用户界面
+    domain_slug: ai代理能力扩展
+    subdomain_slug: 系统交互与用户界面
     shared: false
     members:
       - using-superpowers-concept-工具可用性说明
     summary_hash: sha256:5af11bc6823b950e9c101c7ebf9c2f771edb45216b69c7cafe7af80a6a05d66e
-    description_hash: sha256:a333cdd848865fa4a41ff681a1ecebba98b73a8424d328b87d17db522c49bce8
+    description_hash: sha256:e073e4190fd0eff172923118d0fab26548fa1cced49983cb819fb3179f4b1286
     provenance: llm_inferred
