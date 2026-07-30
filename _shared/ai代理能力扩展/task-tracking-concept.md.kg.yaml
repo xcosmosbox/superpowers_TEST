@@ -1,22 +1,9 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
-doc: skills/using-superpowers/references/antigravity-tools.md
-doc_hash: sha256:9cf600ab4aef994845ad4706c9c6bab684efa1393604d4cd9e64fa6342fc3845
+doc: _shared/ai代理能力扩展/task-tracking-concept.md
+doc_hash: sha256:55bbbfe91bbb275cdcaf7a143f2532f01fc92a59eeb3bea6c93488d96df7c5b3
 generated_at: "2026-07-30T02:59:41Z"
 nodes:
-  - uuid: 44081383-217a-5148-b092-1a1ff3e222ed
-    tag: entity
-    name: manage_task工具
-    domain: AI代理能力扩展
-    subdomain: 任务与进程管理
-    domain_slug: ai代理能力扩展
-    subdomain_slug: 任务与进程管理
-    shared: false
-    members:
-      - using-superpowers-entity-manage-task工具
-    summary_hash: sha256:3a01f18a6d28e03c2428e97f0c1aa8e61f493469a870f681968dffdb0ed336f3
-    description_hash: sha256:ea14e9280771ae1d9b65efea4813419657ba7ceeb62e9479bb9ecde53affa1cb
-    provenance: llm_inferred
   - uuid: b087b64a-4df8-56a1-aae1-4c1e22a3c273
     tag: concept
     name: 任务追踪概念
