@@ -1,19 +1,19 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/antigravity-tools.md
-doc_hash: sha256:1f300976401b897d10b293c868154f2d5976aea0745eb3583e94a076cfb279e3
-generated_at: "2026-07-30T09:19:25Z"
+doc_hash: sha256:e3a6aba98d6d3e32acb246fb784114eb3531fb3077fe6d724da031d24f02b5ec
+generated_at: "2026-07-30T12:02:03Z"
 nodes:
   - uuid: 44081383-217a-5148-b092-1a1ff3e222ed
     tag: entity
     name: manage_task工具
     domain: 任务与计划
-    subdomain: 后台进程管理
+    subdomain: 任务与进程管理
     domain_slug: 任务与计划
-    subdomain_slug: 后台进程管理
+    subdomain_slug: 任务与进程管理
     shared: false
     members:
       - using-superpowers-entity-manage-task工具
     summary_hash: sha256:0e1f8a9129c35e5e1b78c9ff847f9a6f1b9f6c79e96baacfa442305a33930b79
-    description_hash: sha256:4d54b02a53ebc5744fa86777047af379cebbd683ea604929491894713a1c7b85
-    provenance: llm_inferred
+    description_hash: sha256:fcf1fbdcf7c94259946415e030823cab5b3ee3dab0d790bde062447c0032a7df
+    provenance: human_curated

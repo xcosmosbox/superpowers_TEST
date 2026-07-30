@@ -2,7 +2,7 @@
 
 <!-- kg:uuid=44081383-217a-5148-b092-1a1ff3e222ed tag=entity shared=false readonly-meta -->
 ## manage_task工具
-- **归属**：任务与计划 / 后台进程管理
+- **归属**：任务与计划 / 任务与进程管理
 
 **摘要**（可编辑）
 Antigravity CLI中用于管理后台进程的工具，支持list、kill、status和send_input操作

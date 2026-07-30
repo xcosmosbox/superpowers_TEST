@@ -1,16 +1,16 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: _shared/子代理与并发/sub-agent-scheduling.md
-doc_hash: sha256:0a8b98e8f4626ef78e586cbf09dddd28c4c31356daf7ce6363f9f2d0100a41b7
-generated_at: "2026-07-30T09:19:25Z"
+doc_hash: sha256:6a1ed32a2d81b7aeb65b8e4fe0b87ca457983cca84cbf031779a8c2b8e9a2d28
+generated_at: "2026-07-30T12:02:03Z"
 nodes:
   - uuid: 3e94ca73-6887-5102-9e05-971998aa1c96
     tag: concept
     name: 子代理调度
     domain: 子代理与并发
-    subdomain: 调度概念
+    subdomain: 子代理与调度
     domain_slug: 子代理与并发
-    subdomain_slug: 调度概念
+    subdomain_slug: 子代理与调度
     shared: true
     members:
       - using-superpowers-concept-子代理调度
