@@ -2,7 +2,7 @@
 
 <!-- kg:uuid=cc7a06b6-4d56-5021-9fe1-a9f0c13da6f2 tag=concept shared=false readonly-meta -->
 ## GEMINI.md加载机制
-- **归属**：环境与配置 / 配置加载
+- **归属**：环境与配置 / 运行环境
 
 **摘要**（可编辑）
 层次化加载GEMINI.md指令文件的方法
@@ -35,7 +35,7 @@
 
 <!-- kg:uuid=b6c3be06-c596-5ac6-a198-fded64e45e44 tag=entity shared=false readonly-meta -->
 ## Shell执行
-- **归属**：环境与配置 / Shell执行
+- **归属**：环境与配置 / 运行环境
 
 **摘要**（可编辑）
 运行任意 Shell 命令
@@ -46,7 +46,7 @@ Shell执行能力允许运行任意Shell命令，通过Gemini CLI中的run_shell
 
 <!-- kg:uuid=4caa028b-fba8-509b-9f83-6d076ae60596 tag=entity shared=false readonly-meta -->
 ## 主题更新
-- **归属**：对话与持久化 / 上下文记忆
+- **归属**：对话与持久化 / 交互与记忆
 
 **摘要**（可编辑）
 更新当前对话的主题元数据
@@ -57,7 +57,7 @@ Shell执行能力允许运行任意Shell命令，通过Gemini CLI中的run_shell
 
 <!-- kg:uuid=6ae54133-86c1-5208-9e93-098f4e7f37c1 tag=entity shared=false readonly-meta -->
 ## 任务列表
-- **归属**：任务与计划 / 任务跟踪
+- **归属**：任务与计划 / 任务与进程管理
 
 **摘要**（可编辑）
 创建和更新任务追踪列表
@@ -68,7 +68,7 @@ Shell执行能力允许运行任意Shell命令，通过Gemini CLI中的run_shell
 
 <!-- kg:uuid=b087b64a-4df8-56a1-aae1-4c1e22a3c273 tag=concept shared=false readonly-meta -->
 ## 任务追踪概念
-- **归属**：任务与计划 / 任务跟踪
+- **归属**：任务与计划 / 任务与进程管理
 
 **摘要**（可编辑）
 包含任务工件和任务追踪器工具集的任务跟踪核心概念
@@ -90,7 +90,7 @@ Shell执行能力允许运行任意Shell命令，通过Gemini CLI中的run_shell
 
 <!-- kg:uuid=91b73421-43dd-5fcd-b95b-48808c522255 tag=entity shared=false readonly-meta -->
 ## 内置文档查阅
-- **归属**：工具与技能框架 / 技能管理
+- **归属**：工具与技能框架 / 技能与工具管理
 
 **摘要**（可编辑）
 查阅 Gemini CLI 内置文档
@@ -101,7 +101,7 @@ Shell执行能力允许运行任意Shell命令，通过Gemini CLI中的run_shell
 
 <!-- kg:uuid=0c7d2924-925f-58f6-876b-429fce527abe tag=entity shared=false readonly-meta -->
 ## 子代理完成工具
-- **归属**：子代理与并发 / 子代理工具
+- **归属**：子代理与并发 / 子代理与调度
 
 **摘要**（可编辑）
 表示子代理已完成任务并返回结果
@@ -117,7 +117,7 @@ Shell执行能力允许运行任意Shell命令，通过Gemini CLI中的run_shell
 
 <!-- kg:uuid=dad4cdba-1f70-5352-890c-76d14ecf2ce5 tag=entity shared=false readonly-meta -->
 ## 技能存储
-- **归属**：工具与技能框架 / 技能管理
+- **归属**：工具与技能框架 / 技能与工具管理
 
 **摘要**（可编辑）
 用户级技能的存储目录
@@ -128,7 +128,7 @@ Shell执行能力允许运行任意Shell命令，通过Gemini CLI中的run_shell
 
 <!-- kg:uuid=70d30298-1e84-5b0a-ab9f-87323d13ebcc tag=entity shared=false readonly-meta -->
 ## 技能激活
-- **归属**：工具与技能框架 / 技能管理
+- **归属**：工具与技能框架 / 技能与工具管理
 
 **摘要**（可编辑）
 激活指定技能的工具
@@ -139,7 +139,7 @@ Shell执行能力允许运行任意Shell命令，通过Gemini CLI中的run_shell
 
 <!-- kg:uuid=d8e14887-48be-5882-9b81-9d01c4783133 tag=entity shared=false readonly-meta -->
 ## 持久记忆
-- **归属**：对话与持久化 / 上下文记忆
+- **归属**：对话与持久化 / 交互与记忆
 
 **摘要**（可编辑）
 将事实跨会话持久化存储
@@ -183,7 +183,7 @@ Shell执行能力允许运行任意Shell命令，通过Gemini CLI中的run_shell
 
 <!-- kg:uuid=9a5c8f4c-9f83-5d19-8aa5-e058d560fba0 tag=entity shared=false readonly-meta -->
 ## 用户询问
-- **归属**：对话与持久化 / 用户交互
+- **归属**：对话与持久化 / 交互与记忆
 
 **摘要**（可编辑）
 向用户提出结构化问题并收集回答
@@ -216,7 +216,7 @@ Shell执行能力允许运行任意Shell命令，通过Gemini CLI中的run_shell
 
 <!-- kg:uuid=d1871017-e8c0-57c1-952e-799111e00958 tag=entity shared=false readonly-meta -->
 ## 计划模式控制工具
-- **归属**：任务与计划 / 计划控制
+- **归属**：任务与计划 / 任务与进程管理
 
 **摘要**（可编辑）
 提供进入和退出只读计划模式的能力
