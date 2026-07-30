@@ -63,7 +63,7 @@ Shell执行能力允许运行任意Shell命令，通过Gemini CLI中的run_shell
 创建和更新任务追踪列表
 
 **详述**（可编辑）
-任务列表通过 write_todos 工具创建和更新任务待办列表，支持完整的任务生命周期管理，任务状态包括 pending（待处理）、in_progress（进行中）、completed（已完成）、cancelled（已取消）和 blocked（阻塞），确保任务跟踪清晰有序。
+任务列表通过 write_todos 工具创建和更新任务待办列表，支持完整的任务生命周期管理。
 <!-- /kg:uuid=6ae54133-86c1-5208-9e93-098f4e7f37c1 -->
 
 <!-- kg:uuid=b087b64a-4df8-56a1-aae1-4c1e22a3c273 tag=concept shared=false readonly-meta -->
