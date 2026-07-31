@@ -1,19 +1,19 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
 doc: skills/using-superpowers/references/antigravity-tools.md
-doc_hash: sha256:e3a6aba98d6d3e32acb246fb784114eb3531fb3077fe6d724da031d24f02b5ec
-generated_at: "2026-07-30T12:02:03Z"
+doc_hash: sha256:8077fb7a736ca4576ddc28e7386bb0592c3d67bf36d1ec4cbc9570f2e1598c65
+generated_at: "2026-07-31T08:06:34Z"
 nodes:
   - uuid: 44081383-217a-5148-b092-1a1ff3e222ed
     tag: entity
-    name: manage_task工具
-    domain: 任务与计划
-    subdomain: 任务与进程管理
-    domain_slug: 任务与计划
-    subdomain_slug: 任务与进程管理
+    name: 管理后台进程工具
+    domain: 系统交互与核心工具
+    subdomain: 进程管理
+    domain_slug: 系统交互与核心工具
+    subdomain_slug: 进程管理
     shared: false
     members:
       - using-superpowers-entity-manage-task工具
-    summary_hash: sha256:0e1f8a9129c35e5e1b78c9ff847f9a6f1b9f6c79e96baacfa442305a33930b79
-    description_hash: sha256:fcf1fbdcf7c94259946415e030823cab5b3ee3dab0d790bde062447c0032a7df
-    provenance: human_curated
+    summary_hash: sha256:fe385b8ed6dd9cbe2d12f53e759c0fe0d0a2dc7083ed73f233c051ed92fee55c
+    description_hash: sha256:3143ef30bfb4ef9cea18beec55113dfa873e50ac3f3491843b6b473e523ef9e2
+    provenance: llm_inferred
