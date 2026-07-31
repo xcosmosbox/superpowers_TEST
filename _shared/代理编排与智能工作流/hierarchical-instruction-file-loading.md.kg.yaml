@@ -1,7 +1,7 @@
 # 由系统维护，请勿手动编辑本文件。人工创作请在对应 .md 的「摘要/详述」可编辑区进行。
 schema_version: 1
-doc: skills/using-superpowers/references/codex-tools.md
-doc_hash: sha256:2a264d5ec4f4e7f929b89ddd5a79f0dea16c704952a24aed6a5e624d27fb8161
+doc: _shared/代理编排与智能工作流/hierarchical-instruction-file-loading.md
+doc_hash: sha256:3fbfe789f6c1f45dd4d34389a67fc000182a9457accff7bbc8119641fc701c7f
 generated_at: "2026-07-31T08:06:34Z"
 nodes:
   - uuid: 19c8f290-b8eb-5581-8118-5227dc3f97fb
